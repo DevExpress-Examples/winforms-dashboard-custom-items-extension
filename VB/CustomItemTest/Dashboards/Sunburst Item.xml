@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <ExcelDataSource Name="Excel Data Source 1" FileName="\Data\SunburstData.xlsx" ComponentName="dashboardExcelDataSource1">
+      <Options Type="DevExpress.DataAccess.Excel.ExcelSourceOptions" SkipEmptyRows="true" UseFirstRowAsHeader="true" SkipHiddenColumns="true" SkipHiddenRows="true">
+        <ImportSettings Type="DevExpress.DataAccess.Excel.ExcelWorksheetSettings" WorksheetName="Grid 1" />
+      </Options>
+      <Schema>
+        <FieldInfo Name="CategoryName" Type="System.String" Selected="true" />
+        <FieldInfo Name="ProductName" Type="System.String" Selected="true" />
+        <FieldInfo Name="Quantity" Type="System.Double" Selected="true" />
+      </Schema>
+      <ResultSchema>
+        <View>
+          <Field Name="CategoryName" Type="String" />
+          <Field Name="ProductName" Type="String" />
+          <Field Name="Quantity" Type="Double" />
+        </View>
+      </ResultSchema>
+    </ExcelDataSource>
+  </DataSources>
+  <Items>
+    <CustomItem ComponentName="sunburstItemMetadataDashboardItem1" Name="Sunburst 1" DataSource="dashboardExcelDataSource1" CustomItemType="SunburstItemMetadata">
+      <DataItems>
+        <Dimension DataMember="CategoryName" ColoringMode="Hue" DefaultId="DataItem0" />
+        <Dimension DataMember="ProductName" DefaultId="DataItem1" />
+        <Measure DataMember="Quantity" DefaultId="DataItem2" />
+      </DataItems>
+      <SliceTables>
+        <SliceTable Name="SliceTable1">
+          <Dimensions>
+            <Dimension DefaultId="DataItem0" />
+            <Dimension DefaultId="DataItem1" />
+          </Dimensions>
+          <Measures>
+            <Measure DefaultId="DataItem2" />
+          </Measures>
+        </SliceTable>
+      </SliceTables>
+      <InteractivityTargets>
+        <Dimension DefaultId="DataItem0" />
+        <Dimension DefaultId="DataItem1" />
+      </InteractivityTargets>
+      <ColoringDimensions>
+        <Dimension DefaultId="DataItem0" />
+        <Dimension DefaultId="DataItem1" />
+      </ColoringDimensions>
+      <CustomMetadata>
+        <Value ItemType="Measure" DefaultId="DataItem2" />
+        <Arguments>
+          <Item1 ItemType="Dimension" DefaultId="DataItem0" />
+          <Item2 ItemType="Dimension" DefaultId="DataItem1" />
+        </Arguments>
+      </CustomMetadata>
+    </CustomItem>
+    <Grid ComponentName="gridDashboardItem2" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+      <DataItems>
+        <Measure DataMember="Quantity" DefaultId="DataItem2" />
+        <Dimension DataMember="ProductName" DefaultId="DataItem1" />
+        <Dimension DataMember="CategoryName" DefaultId="DataItem0" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem2" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Weight="100">
+      <LayoutItem DashboardItem="sunburstItemMetadataDashboardItem1" Weight="25" />
+      <LayoutItem DashboardItem="gridDashboardItem2" Weight="25" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
