@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>DevExpresss.DashboardWin.CustomItemExtension</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>DevExpresss.DashboardWin.CustomItemExtension</AssemblyName>
+    <IntermediateOutputPath>obj.NCD</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Images\BingLogo.png" />
+    <None Remove="Images\FunnelItem.svg" />
+    <None Remove="Images\GanttItem.svg" />
+    <None Remove="Images\HierarchyTreeItemt.svg" />
+    <None Remove="Images\SankeyCustomItem.svg" />
+    <None Remove="Images\SunburstCustomItem.svg" />
+    <None Remove="Images\TreeListItem.svg" />
+    <None Remove="Images\WaypointCustomItem.svg" />
+    <None Remove="Images\WebPageItem.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\BingLogo.png" />
+    <EmbeddedResource Include="Images\FunnelItem.svg" />
+    <EmbeddedResource Include="Images\GanttItem.svg" />
+    <EmbeddedResource Include="Images\SankeyCustomItem.svg" />
+    <EmbeddedResource Include="Images\SunburstCustomItem.svg" />
+    <EmbeddedResource Include="Images\TreeListItem.svg" />
+    <EmbeddedResource Include="Images\WaypointCustomItem.svg" />
+    <EmbeddedResource Include="Images\WebPageItem.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Win.Dashboard" Version="21.1.4" />
+    <PackageReference Include="DevExpress.Win.Gantt" Version="21.1.4" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.902.49" />
+  </ItemGroup>
+</Project>
