@@ -45,9 +45,9 @@ The Sankey diagram visualizes data as weighted flows or relationships between no
 ![Sankey](images/Sankey.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
-* [Master-Filter]()
-* [Coloring]()
-* [Export]()
+* Master-Filter
+* Coloring
+* Export
 
 ### Custom Sunburst Item
 [View file](CustomItemExtension/CustomItems/SunburstChart)
@@ -57,9 +57,10 @@ The Sunburst chart combines a Treemap and Pie chart to visualize hierarchical da
 ![Sunburst](images/SunBurst.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
-* [Master-Filter]()
-* [Coloring]()
-* [Export]()
+* Master-Filter
+* Coloring
+* Export
+
 ### Custom Tree List Item
 [View file](CustomItemExtension/CustomItems/HierarhyTree)
 
@@ -68,9 +69,10 @@ The hybrid item combines a Tree List and Grid. The Tree List uses the parent-chi
 ![TreeList](images/Treelist.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
-* [Master-Filter]()
-* [Coloring]()
-* [Export]()
+* Master-Filter
+* Coloring
+* Export
+
 
 ### Custom Waypoint Map Item
 
@@ -81,9 +83,10 @@ The Waypoint map visualizes data as linked points.
 ![WayPointMap](images/WayPointMap.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
-* [Master-Filter]()
-* [Coloring]()
-* [Export]()
+* Master-Filter
+* Coloring
+* Export
+
 
 ### Custom Funnel Item
 
@@ -94,10 +97,10 @@ The Funnel chart visualizes the progressive reduction of data as it passes from 
 ![Funnel](images/Funnel.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
-* [Master-Filter]()
-* [Drill-Down]()
-* [Coloring]()
-* [Export]()
+* Master-Filter
+* Drill-Down
+* Coloring
+* Export
 
 ### Custom Gantt Item
 
@@ -108,9 +111,10 @@ The Gantt chart visualizes project schedule data as bars.
 ![Gantt](images/Gantt.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
-* [Master-Filter]()
-* [Coloring]()
-* [Export]()
+* Master-Filter
+* Coloring
+* Export
+
 
 ### Custom Web Page
 
@@ -121,9 +125,10 @@ The Web Page displays the web content. You can specify the URI pattern to create
 ![Web Page](images/webpage.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
-* [Master-Filter]()
-* [Coloring]()
-* [Export]()
+* Master-Filter
+* Coloring
+* Export
+
 ## Example Structure
 
 Custom item files are stored in the _CustomItems_ folder. Each custom item has the following classes:
