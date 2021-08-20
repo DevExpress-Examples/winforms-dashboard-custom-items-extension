@@ -70,7 +70,6 @@ The hybrid item combines a Tree List and Grid. The Tree List uses the parent-chi
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
-* Coloring
 * Export
 
 
@@ -84,7 +83,6 @@ The Waypoint map visualizes data as linked points.
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
-* Coloring
 * Export
 
 
@@ -112,7 +110,6 @@ The Gantt chart visualizes project schedule data as bars.
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
-* Coloring
 * Export
 
 
@@ -126,7 +123,6 @@ The Web Page displays the web content. You can specify the URI pattern to create
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
-* Coloring
 * Export
 
 ## Example Structure
