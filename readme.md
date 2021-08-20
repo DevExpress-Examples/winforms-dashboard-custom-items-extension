@@ -38,7 +38,7 @@ Refer to the following list for detailed item descriptions:
 - [Custom Web Page](#custom-web-page)
 
 ### Custom Sankey Item
-[View file](CustomItemExtension/CustomItems/SankeyChart)
+View file: ([C#](CS/CustomItemExtension/CustomItems/SankeyChart)/[VB](VB/CustomItemExtension/CustomItems/SankeyChart))
 
 The Sankey diagram visualizes data as weighted flows or relationships between nodes.
 
@@ -50,7 +50,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 * Export
 
 ### Custom Sunburst Item
-[View file](CustomItemExtension/CustomItems/SunburstChart)
+View file: ([C#](CS/CustomItemExtension/CustomItems/SunburstChart)/[VB](VB/CustomItemExtension/CustomItems/SunburstChart))
 
 The Sunburst chart combines a Treemap and Pie chart to visualize hierarchical data in a circular layout.
 
@@ -62,7 +62,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 * Export
 
 ### Custom Tree List Item
-[View file](CustomItemExtension/CustomItems/HierarhyTree)
+View file: ([C#](CS/CustomItemExtension/CustomItems/HierarhyTree)/[VB](VB/CustomItemExtension/CustomItems/HierarhyTree))
 
 The hybrid item combines a Tree List and Grid. The Tree List uses the parent-child relationships to generate the hierarchical data structure.
 
@@ -76,7 +76,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 
 ### Custom Waypoint Map Item
 
-[View file](CustomItemExtension/CustomItems/WaypointMap)
+View file: ([C#](CS/CustomItemExtension/CustomItems/WaypointMap)/[VB](VB/CustomItemExtension/CustomItems/WaypointMap))
 
 The Waypoint map visualizes data as linked points.
 
@@ -90,7 +90,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 
 ### Custom Funnel Item
 
-[View file](CustomItemExtension/CustomItems/Funnel)
+View file: ([C#](CS/CustomItemExtension/CustomItems/Funnel)[VB](VB/CustomItemExtension/CustomItems/Funnel))
 
 The Funnel chart visualizes the progressive reduction of data as it passes from one stage to another in a process or procedure.
 
@@ -104,7 +104,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 
 ### Custom Gantt Item
 
-[View file](CustomItemExtension/CustomItems/GanttItem)
+View file: ([C#](CS/CustomItemExtension/CustomItems/GanttItem)/[VB](VB/CustomItemExtension/CustomItems/GanttItem))
 
 The Gantt chart visualizes project schedule data as bars.
 
@@ -118,7 +118,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 
 ### Custom Web Page
 
-[View file](CustomItemExtension/CustomItems/WebPageItem)
+View file: ([C#](CS/CustomItemExtension/CustomItems/WebPageItem)/[VB](VB/CustomItemExtension/CustomItems/WebPageItem))
 
 The Web Page displays the web content. You can specify the URI pattern to create the page address from a data column at run-time.
 
