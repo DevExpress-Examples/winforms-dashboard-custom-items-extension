@@ -248,10 +248,9 @@ End Sub
 ## Documentation
 
 - [Custom Item Tutorials](http://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item#tutorials)
-
 - [Custom Item Troubleshooting](https://docs.devexpress.com/Dashboard/403250/winforms-dashboard/winforms-designer/create-a-custom-item/custom-item-troubleshooting)
 
 
-## More Example 
+## More Examples
 
 [Custom Items - Tutorial](https://github.com/DevExpress-Examples/winforms-dashboard-custom-items)
