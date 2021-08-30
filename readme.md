@@ -67,7 +67,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 * Export
 
 ### Custom Tree List Item
-View file: ([C#](CS/CustomItemExtension/CustomItems/HierarhyTree)/[VB](VB/CustomItemExtension/CustomItems/HierarhyTree))
+View file: ([C#](CS/CustomItemExtension/CustomItems/TreeList)/[VB](VB/CustomItemExtension/CustomItems/TreeList))
 
 The hybrid item combines a Tree List and Grid. The Tree List uses the parent-child relationships to generate the hierarchical data structure.
 
