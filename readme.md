@@ -17,11 +17,11 @@ A custom [Web Page](#custom-web-page) item requires [WebView2 Runtime](https://d
 ## Example Overview
 
 The example consists of two projects: 
-* [CustomItemExtension](CS/CustomItemExtension/CustomItemExtension) (VB:[CustomItemExtension](VB/CustomItemExtension/CustomItemExtension))
+* [CustomItemExtension](CS/CustomItemExtension) (VB: [CustomItemExtension](VB/CustomItemExtension))
 
     Contains the source code of custom items and can be used in customer solutions. 
 
-* [CustomItemTest](CS/CustomItemExtension/CustomItemTest) (VB:[CustomItemTest](VB/CustomItemExtension/CustomItemTest))
+* [CustomItemTest](CS/CustomItemExtension) (VB: [CustomItemTest](VB/CustomItemExtension))
 
     Contains a dashboard with custom items and can be used as a test project.
 
