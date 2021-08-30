@@ -40,7 +40,7 @@ Refer to the following list for detailed item descriptions:
 
 - [Custom Gantt item](#custom-gantt-item)
 
-- [Custom Web Page](#custom-web-page)
+- [Custom Web Page Item](#custom-web-page-item)
 
 ### Custom Sankey Item
 View file: ([C#](CS/CustomItemExtension/CustomItems/SankeyChart)/[VB](VB/CustomItemExtension/CustomItems/SankeyChart))
@@ -118,7 +118,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 * Export
 
 
-### Custom Web Page
+### Custom Web Page Item
 
 View file: ([C#](CS/CustomItemExtension/CustomItems/WebPageItem)/[VB](VB/CustomItemExtension/CustomItems/WebPageItem))
 
