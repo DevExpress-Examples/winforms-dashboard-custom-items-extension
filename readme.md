@@ -93,7 +93,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 
 ### Custom Funnel Item
 
-View file: ([C#](CS/CustomItemExtension/CustomItems/Funnel)[VB](VB/CustomItemExtension/CustomItems/Funnel))
+View file: ([C#](CS/CustomItemExtension/CustomItems/Funnel)/[VB](VB/CustomItemExtension/CustomItems/Funnel))
 
 The Funnel chart visualizes the progressive reduction of data as it passes from one stage to another in a process or procedure.
 
