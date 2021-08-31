@@ -185,7 +185,7 @@ The file that is used for an icon must be embedded in the file assembly. The fil
  
 ## Integrate a Custom Item to Your Project
 
-1. Add the [CustomItemExtension](CS/CustomItemExtension) (VB: [CustomItemExtension](VB/CustomItemExtension)) project to your solution.
+1. Add the [CustomItemExtension](CS/CustomItemExtension) (VB: [CustomItemExtension](VB/CustomItemExtension)) project to your solution or install the [NuGet package](https://www.nuget.org/packages/DevExpress.Win.Dashboard.CustomItemExtension/).
 
 1. Add a reference to this project to "References" in your project with a dashboard control.
 
