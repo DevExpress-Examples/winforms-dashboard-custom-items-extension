@@ -185,9 +185,9 @@ The file that is used for an icon must be embedded in the file assembly. The fil
  
 ## Integrate a Custom Item to Your Project
 
-1. Add the [CustomItemExtension](CS/CustomItemExtension) (VB: [CustomItemExtension](VB/CustomItemExtension)) project to your solution or install the [NuGet package](https://www.nuget.org/packages/DevExpress.Win.Dashboard.CustomItemExtension/).
+* Add the [CustomItemExtension](CS/CustomItemExtension) (VB: [CustomItemExtension](VB/CustomItemExtension)) project to your solution. Add a reference to this project to "References" in your project with a dashboard control.
 
-1. Add a reference to this project to "References" in your project with a dashboard control.
+* Install the [NuGet package](https://www.nuget.org/packages/DevExpress.Win.Dashboard.CustomItemExtension/).
 
 1. Register the [CustomItemMetadata](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.CustomItemMetadata) type for a custom item and attach its module in your application:
 
@@ -228,12 +228,13 @@ Namespace CustomItemsSample
     End Class
 End Namespace
 ```
-* Call the following code to attach the extension to the `DashboardDesigner` control:
+2. Call the following code to attach the extension to the `DashboardDesigner` control:
 
 **C# code**:
 ```csharp
 public Form1() {
         InitializeComponent();
+	dashboardDesigner1.CreateRibbon();
         SankeyItemModule.AttachDesigner(dashboardDesigner1);
 }
 ``` 
@@ -241,8 +242,9 @@ public Form1() {
 **VB code**: 
 ```vb
 Public Sub New()
-		InitializeComponent()
-		SankeyItemModule.AttachDesigner(dashboardDesigner1)
+	InitializeComponent()
+	dashboardDesigner1.CreateRibbon()
+	SankeyItemModule.AttachDesigner(dashboardDesigner1)
 End Sub 
 ```
 ## Documentation
