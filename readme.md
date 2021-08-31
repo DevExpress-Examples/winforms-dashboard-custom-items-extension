@@ -12,7 +12,7 @@ In a test dashboard of this example, you can add custom items from the Ribbon an
 
 ## Prerequisites  
 
-A custom [Web Page](#custom-web-page) item requires [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) to be installed on your machine.
+A custom [Web Page](#custom-web-page-item) item requires [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) to be installed on your machine.
 
 ## Example Overview
 
