@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1023113)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Custom Items
+# Dashboard for WinForms - Custom Item Extensions
 
 This example contains the source code of the most requested custom items. Custom items allow you to embed any WinForms control into a [Dashboard](https://www.devexpress.com/products/net/dashboard/). You can use the complete custom items from this example as they are, or modify them according to your needs. 
 In a test dashboard of this example, you can add custom items from the Ribbon and switch between tabs in the [ribbon UI main menu](https://docs.devexpress.com/WindowsForms/5482/controls-and-libraries/ribbon-bars-and-menu/common-features/look-and-feel) at the left edge to display each custom item on the [dashboard surface](https://docs.devexpress.com/Dashboard/18205/winforms-dashboard/winforms-designer/ui-elements/dashboard-surface?p=netframework).
