@@ -191,7 +191,7 @@ You can add custom items to your project one of the following ways:
 
 * Add the [CustomItemExtension](CS/CustomItemExtension) (VB: [CustomItemExtension](VB/CustomItemExtension)) project to your solution. Add a reference to this project to "References" in your project with a dashboard control.
 
-* Install the [NuGet package](https://www.nuget.org/packages/DevExpress.Win.Dashboard.CustomItemExtension/).
+* Install the [NuGet package](https://www.nuget.org/packages/DevExpress.Win.Dashboard.CustomItemExtension/). 
 
 ### Register Custom Items
 
