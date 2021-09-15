@@ -202,6 +202,7 @@ For example, call the following code to register the `SankeyItemMetadata` type i
 **C# code**:
 ```csharp
 using DevExpresss.DashboardWin.CustomItemExtension;
+using DevExpress.DashboardCommon;
 
 namespace CustomItemsSample {
     static class Program {
@@ -221,6 +222,7 @@ namespace CustomItemsSample {
 **VB code**: 
 ```vb
 Imports DevExpresss.DashboardWin.CustomItemExtension
+Imports DevExpress.DashboardCommon
 
 Namespace CustomItemsSample
     Friend NotInheritable Class Program
