@@ -244,19 +244,27 @@ End Namespace
 
 **C# code**:
 ```csharp
+using DevExpress.XtraBars.Ribbon;
+using DevExpresss.DashboardWin.CustomItemExtension; 
+
 public Form1() {
         InitializeComponent();
+	var sankeyItemModule = new SankeyItemExtensionModule();
 	dashboardDesigner1.CreateRibbon();
-        SankeyItemModule.AttachDesigner(dashboardDesigner1);
+        sankeyItemModule.AttachDesigner(dashboardDesigner1);
 }
 ``` 
 
 **VB code**: 
 ```vb
+Imports DevExpress.XtraBars.Ribbon
+Imports DevExpresss.DashboardWin.CustomItemExtension
+
 Public Sub New()
 	InitializeComponent()
+	Dim sankeyItemModule = New SankeyItemExtensionModule()
 	dashboardDesigner1.CreateRibbon()
-	SankeyItemModule.AttachDesigner(dashboardDesigner1)
+	sankeyItemModule.AttachDesigner(dashboardDesigner1)
 End Sub 
 ```
 ## Documentation
