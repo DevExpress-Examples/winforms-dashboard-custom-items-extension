@@ -48,33 +48,17 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Charts.Core.21.1.5\lib\net452\DevExpress.Charts.v21.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.CodeParser.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.CodeParser.21.1.5\lib\net452\DevExpress.CodeParser.v21.1.dll</HintPath>
-    </Reference>
+    <Reference Include="DevExpress.Charts.v21.1.Core"/>
+    <Reference Include="DevExpress.CodeParser.v21.1"/>
     <Reference Include="DevExpress.Dashboard.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
     <Reference Include="DevExpress.Dashboard.v21.1.Win, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
-    <Reference Include="DevExpress.Data.Desktop.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.DataVisualization.Core.21.1.5\lib\net452\DevExpress.DataVisualization.v21.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Data.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.DataVisualization.Core.21.1.5\lib\net452\DevExpress.DataVisualization.v21.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.DataAccess.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.DataVisualization.Core.21.1.5\lib\net452\DevExpress.DataVisualization.v21.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.DataAccess.v21.1.UI, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.DataVisualization.Core.21.1.5\lib\net452\DevExpress.DataVisualization.v21.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.DataVisualization.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.DataVisualization.Core.21.1.5\lib\net452\DevExpress.DataVisualization.v21.1.Core.dll</HintPath>
-    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v21.1"/>
+    <Reference Include="DevExpress.Data.v21.1"/>
+    <Reference Include="DevExpress.DataAccess.v21.1"/>
+    <Reference Include="DevExpress.DataAccess.v21.1.UI"/>
+    <Reference Include="DevExpress.DataVisualization.v21.1.Core"/>
     <Reference Include="DevExpress.Diagram.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
-    <Reference Include="DevExpress.Images.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Images.21.1.5\lib\net452\DevExpress.Images.v21.1.dll</HintPath>
-    </Reference>
+    <Reference Include="DevExpress.Images.v21.1"/>
     <Reference Include="DevExpress.Map.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
     <Reference Include="DevExpress.Office.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
     <Reference Include="DevExpress.Pdf.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
@@ -84,18 +68,10 @@
     <Reference Include="DevExpress.RichEdit.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
     <Reference Include="DevExpress.RichEdit.v21.1.Export, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
     <Reference Include="DevExpress.Sparkline.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
-    <Reference Include="DevExpress.TreeMap.v21.1.Core, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.TreeMap.Core.21.1.5\lib\net452\DevExpress.TreeMap.v21.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Utils.UI.21.1.5\lib\net452\DevExpress.Utils.v21.1.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v21.1.UI, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Utils.UI.21.1.5\lib\net452\DevExpress.Utils.v21.1.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpo.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Xpo.21.1.5\lib\net452\DevExpress.Xpo.v21.1.dll</HintPath>
-    </Reference>
+    <Reference Include="DevExpress.TreeMap.v21.1.Core"/>
+    <Reference Include="DevExpress.Utils.v21.1"/>
+    <Reference Include="DevExpress.Utils.v21.1.UI"/>
+    <Reference Include="DevExpress.Xpo.v21.1"/>
     <Reference Include="DevExpress.XtraBars.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
     <Reference Include="DevExpress.XtraCharts.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
     <Reference Include="DevExpress.XtraCharts.v21.1.Extensions, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL"></Reference>
@@ -190,5 +166,4 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\Microsoft.Web.WebView2.1.0.902.49\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.902.49\build\Microsoft.Web.WebView2.targets')" />
-  <Import Project="..\packages\DevExpress.Reporting.Core.21.1.5\build\DevExpress.Reporting.Core.targets" Condition="Exists('..\packages\DevExpress.Reporting.Core.21.1.5\build\DevExpress.Reporting.Core.targets')" />
 </Project>
