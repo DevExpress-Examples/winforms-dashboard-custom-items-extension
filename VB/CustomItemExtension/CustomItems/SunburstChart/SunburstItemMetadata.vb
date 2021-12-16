@@ -2,7 +2,7 @@
 Imports System.ComponentModel
 
 Namespace DevExpresss.DashboardWin.CustomItemExtension
-	<DisplayName("Sunburst"), CustomItemDescription("Create a Sunburst dashboard item and insert it into the dashboard." & vbLf & vbLf & "The Sunburst combines a TreeMap and a Pie chart to visualize hierarchical data in a circular layout."), CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.SunburstCustomItem.svg")>
+	<DisplayName("Sunburst"), CustomItemDescription("Create a Sunburst dashboard item and insert it into the dashboard." & vbLf & vbLf & "The Sunburst combines a TreeMap and a Pie chart to visualize hierarchical data in a circular layout."), CustomItemImage("SunburstCustomItem.svg")>
 	Public Class SunburstItemMetadata
 		Inherits CustomItemMetadata
 

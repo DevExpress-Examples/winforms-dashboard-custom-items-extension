@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+</style>
+<path class="Black" d="M31,8H1C0.5,8,0,8.5,0,9v14c0,0.5,0.5,1,1,1h30c0.5,0,1-0.5,1-1V9C32,8.5,31.5,8,31,8z M30,22H2V10h28V22z"/>
+<polygon class="Black" points="4,16 8,12 8,20 "/>
+<polyline class="Black" points="28,16 24,12 24,20 "/>
+<rect x="12" y="12" class="Blue" width="8" height="8"/>
+</svg>

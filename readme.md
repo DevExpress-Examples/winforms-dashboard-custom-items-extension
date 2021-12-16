@@ -42,6 +42,8 @@ Refer to the following list for detailed item descriptions:
 
 - [Custom Web Page Item](#custom-web-page-item)
 
+- [Custom Heatmap Item](#custom-heatmap-item)
+
 ### Custom Sankey Item
 View file: ([C#](CS/CustomItemExtension/CustomItems/SankeyChart)/[VB](VB/CustomItemExtension/CustomItems/SankeyChart))
 
@@ -129,6 +131,19 @@ The Web Page displays the web content. You can specify the URI pattern to create
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
 * Export
+
+
+### Custom Heatmap Item
+
+View file: ([C#](CS/CustomItemExtension/CustomItems/Heatmap)/[VB](VB/CustomItemExtension/CustomItems/Heatmap))
+
+The Heatmap item uses color variation to show the relationship between two dimensions.
+
+![Heatmap](images/Heatmap.png)
+
+This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
+* Export
+* Coloring
 
 ## Example Structure
 

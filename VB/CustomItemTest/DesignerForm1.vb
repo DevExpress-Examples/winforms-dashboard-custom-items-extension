@@ -15,6 +15,7 @@ Namespace CustomItemTest
 		Private hierarchyTreeItemModule As New TreeListItemExtensionModule()
 		Private ganttItemExtensionModule As New GanttItemExtensionModule()
 		Private webPageItemExtensionModule As New WebPageItemExtensionModule()
+		Private heatmapItemModule As New HeatmapItemExtensionModule()
 		Public Sub New()
 			Dashboard.CustomItemMetadataTypes.Register(Of SunburstItemMetadata)()
 			Dashboard.CustomItemMetadataTypes.Register(Of SankeyItemMetadata)()
@@ -23,6 +24,7 @@ Namespace CustomItemTest
 			Dashboard.CustomItemMetadataTypes.Register(Of TreeListItemMetadata)()
 			Dashboard.CustomItemMetadataTypes.Register(Of GanttItemMetadata)()
 			Dashboard.CustomItemMetadataTypes.Register(Of WebPageItemMetadata)()
+			Dashboard.CustomItemMetadataTypes.Register(Of HeatmapItemMetadata)()
 
 			InitializeComponent()
 			dashboardDesigner.CreateRibbon()
@@ -40,6 +42,7 @@ Namespace CustomItemTest
 			hierarchyTreeItemModule.AttachDesigner(dashboardDesigner)
 			ganttItemExtensionModule.AttachDesigner(dashboardDesigner)
 			webPageItemExtensionModule.AttachDesigner(dashboardDesigner)
+			heatmapItemModule.AttachDesigner(dashboardDesigner)
 		End Sub
 		Private Sub GenerateAccordionElements()
 			For Each dashboardFile As String In Directory.GetFiles("Dashboards", "*.xml", SearchOption.TopDirectoryOnly)

@@ -2,7 +2,7 @@
 Imports DevExpress.DashboardCommon
 
 Namespace DevExpresss.DashboardWin.CustomItemExtension
-	<DisplayName("Waypoint Map"), CustomItemDescription("Create a Waypoint map dashboard item and insert it into the dashboard." & vbLf & vbLf & "The Waypoint map visualizes data as linked points."), CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.WaypointCustomItem.svg")>
+	<DisplayName("Waypoint Map"), CustomItemDescription("Create a Waypoint map dashboard item and insert it into the dashboard." & vbLf & vbLf & "The Waypoint map visualizes data as linked points."), CustomItemImage("WaypointCustomItem.svg")>
 	Public Class WaypointMapItemMetadata
 		Inherits CustomItemMetadata
 

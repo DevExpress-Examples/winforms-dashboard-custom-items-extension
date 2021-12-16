@@ -14,6 +14,7 @@ namespace CustomItemTest {
         TreeListItemExtensionModule hierarchyTreeItemModule = new TreeListItemExtensionModule();
         GanttItemExtensionModule ganttItemExtensionModule = new GanttItemExtensionModule();
         WebPageItemExtensionModule webPageItemExtensionModule = new WebPageItemExtensionModule();
+        HeatmapItemExtensionModule heatmapItemModule = new HeatmapItemExtensionModule();
         public DesignerForm1() {
             Dashboard.CustomItemMetadataTypes.Register<SunburstItemMetadata>();
             Dashboard.CustomItemMetadataTypes.Register<SankeyItemMetadata>();
@@ -22,6 +23,7 @@ namespace CustomItemTest {
             Dashboard.CustomItemMetadataTypes.Register<TreeListItemMetadata>();
             Dashboard.CustomItemMetadataTypes.Register<GanttItemMetadata>();
             Dashboard.CustomItemMetadataTypes.Register<WebPageItemMetadata>();
+            Dashboard.CustomItemMetadataTypes.Register<HeatmapItemMetadata>();
 
             InitializeComponent();
             dashboardDesigner.CreateRibbon();
@@ -39,6 +41,7 @@ namespace CustomItemTest {
             hierarchyTreeItemModule.AttachDesigner(dashboardDesigner);
             ganttItemExtensionModule.AttachDesigner(dashboardDesigner);
             webPageItemExtensionModule.AttachDesigner(dashboardDesigner);
+            heatmapItemModule.AttachDesigner(dashboardDesigner);
         }
         void GenerateAccordionElements() {
             foreach( string dashboardFile in Directory.GetFiles("Dashboards", "*.xml", SearchOption.TopDirectoryOnly)) {
