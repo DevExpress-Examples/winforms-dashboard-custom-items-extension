@@ -230,21 +230,6 @@ namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
                 return scale;
             }
         }
-        //internal MapScale GetScale() {
-        //    ColorizerScale currentScale = percents ? percentScale : absoluteScale;
-        //    if((allowChanges && currentScale.HasChanges) || !percents) {
-        //        CustomHeatmapScale scale = new CustomHeatmapScale();
-        //        scale.IsPercent = percents;
-        //        scale.RangeStops.AddRange(currentScale.Select(cs => cs.Range).OrderBy(rangeStop => rangeStop).ToList());
-        //        return scale;
-        //    }
-        //    else {
-        //        UniformHeatmapScale scale = new UniformHeatmapScale();
-        //        scale.LevelsCount = percentMarksCount;
-        //        return scale;
-        //    }
-        //}
-
         internal void InitializeFrom(MapPalette palette, MapScale scale) {
             initialPalette = palette;
             initialScale = scale;
