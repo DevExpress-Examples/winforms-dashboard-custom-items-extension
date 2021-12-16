@@ -41,12 +41,8 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 		Protected Overrides Sub UpdateControl(ByVal customItemData As CustomItemData)
 			heatmap.Label.Visible = dashboardItem.Metadata.ShowLabels
 			heatmap.Legend.Visibility = If(dashboardItem.Metadata.ShowLegend, DefaultBoolean.True, DefaultBoolean.False)
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: heatmap.EnableAxisXZooming = heatmap.EnableAxisXScrolling = dashboardItem.Metadata.EnableZoomingXAxis;
 			heatmap.EnableAxisXScrolling = dashboardItem.Metadata.EnableZoomingXAxis
 			heatmap.EnableAxisXZooming = heatmap.EnableAxisXScrolling
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: heatmap.EnableAxisYZooming = heatmap.EnableAxisYScrolling = dashboardItem.Metadata.EnableZoomingYAxis;
 			heatmap.EnableAxisYScrolling = dashboardItem.Metadata.EnableZoomingYAxis
 			heatmap.EnableAxisYZooming = heatmap.EnableAxisYScrolling
 			ClearDataBindings()
@@ -63,14 +59,8 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 		End Function
 		Private Sub ClearDataBindings()
 			heatmap.DataAdapter = Nothing
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: dataAdapter.DataSource = dataAdapter.ColorDataMember = dataAdapter.XArgumentDataMember = dataAdapter.YArgumentDataMember = null;
 			dataAdapter.YArgumentDataMember = Nothing
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: dataAdapter.DataSource = dataAdapter.ColorDataMember = dataAdapter.XArgumentDataMember = dataAdapter.YArgumentDataMember
 			dataAdapter.XArgumentDataMember = dataAdapter.YArgumentDataMember
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: dataAdapter.DataSource = dataAdapter.ColorDataMember = dataAdapter.XArgumentDataMember
 			dataAdapter.ColorDataMember = dataAdapter.XArgumentDataMember
 			dataAdapter.DataSource = dataAdapter.ColorDataMember
 		End Sub

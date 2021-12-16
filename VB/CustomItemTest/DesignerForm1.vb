@@ -30,7 +30,7 @@ Namespace CustomItemTest
 			dashboardDesigner.CreateRibbon()
 			AttachModules()
 			GenerateAccordionElements()
-			dashboardsAccordion.SelectedElement = dashboardsAccordion.Elements.Last()
+			dashboardsAccordion.SelectedElement = dashboardsAccordion.Elements(2)
 			dashboardsAccordion.ScrollBarMode = ScrollBarMode.Auto
 		End Sub
 

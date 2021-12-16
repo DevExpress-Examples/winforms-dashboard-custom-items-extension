@@ -93,8 +93,6 @@
 			Me.btnInsertPlaceholder.StyleController = Me.layoutControl
 			Me.btnInsertPlaceholder.TabIndex = 5
 			Me.btnInsertPlaceholder.Text = "Insert Placeholder"
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.btnInsertPlaceholder.Click += new System.EventHandler(this.OnInsertPlaceholderClick);
 			' 
 			' teUriPattern
 			' 

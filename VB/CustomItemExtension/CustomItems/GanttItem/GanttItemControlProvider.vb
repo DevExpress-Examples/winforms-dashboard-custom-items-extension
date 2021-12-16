@@ -89,17 +89,9 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 			skipMasterFiltering = True
 			gantt.DataSource = Nothing
 			gantt.Columns.Clear()
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: gantt.TreeListMappings.KeyFieldName = gantt.TreeListMappings.ParentFieldName = gantt.ChartMappings.TextFieldName = gantt.ChartMappings.StartDateFieldName = gantt.ChartMappings.FinishDateFieldName = string.Empty;
 			gantt.ChartMappings.FinishDateFieldName = String.Empty
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: gantt.TreeListMappings.KeyFieldName = gantt.TreeListMappings.ParentFieldName = gantt.ChartMappings.TextFieldName = gantt.ChartMappings.StartDateFieldName = gantt.ChartMappings.FinishDateFieldName
 			gantt.ChartMappings.StartDateFieldName = gantt.ChartMappings.FinishDateFieldName
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: gantt.TreeListMappings.KeyFieldName = gantt.TreeListMappings.ParentFieldName = gantt.ChartMappings.TextFieldName = gantt.ChartMappings.StartDateFieldName
 			gantt.ChartMappings.TextFieldName = gantt.ChartMappings.StartDateFieldName
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: gantt.TreeListMappings.KeyFieldName = gantt.TreeListMappings.ParentFieldName = gantt.ChartMappings.TextFieldName
 			gantt.TreeListMappings.ParentFieldName = gantt.ChartMappings.TextFieldName
 			gantt.TreeListMappings.KeyFieldName = gantt.TreeListMappings.ParentFieldName
 			If Not ValidateBindings() Then

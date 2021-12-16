@@ -20,10 +20,9 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
 			Const placeholder As String = "{0}"
 			Dim selectionStart As Integer = teUriPattern.SelectionStart
 			Dim selectionlength As Integer = teUriPattern.SelectionLength
-'INSTANT VB NOTE: The variable text was renamed since Visual Basic does not handle local variables named the same as class members well:
-			Dim text_Renamed As String = teUriPattern.Text
-			text_Renamed = text_Renamed.Remove(selectionStart, selectionlength).Insert(selectionStart, placeholder)
-			teUriPattern.Text = text_Renamed
+			Dim _text As String = teUriPattern.Text
+			_text = _text.Remove(selectionStart, selectionlength).Insert(selectionStart, placeholder)
+			teUriPattern.Text = _text
 			teUriPattern.Focus()
 			teUriPattern.Select(selectionStart, placeholder.Length)
 		End Sub

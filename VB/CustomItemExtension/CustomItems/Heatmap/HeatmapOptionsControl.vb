@@ -242,20 +242,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
 				Return scale
 			End If
 		End Function
-		'internal MapScale GetScale() {
-		'    ColorizerScale currentScale = percents ? percentScale : absoluteScale;
-		'    if((allowChanges && currentScale.HasChanges) || !percents) {
-		'        CustomHeatmapScale scale = new CustomHeatmapScale();
-		'        scale.IsPercent = percents;
-		'        scale.RangeStops.AddRange(currentScale.Select(cs => cs.Range).OrderBy(rangeStop => rangeStop).ToList());
-		'        return scale;
-		'    }
-		'    else {
-		'        UniformHeatmapScale scale = new UniformHeatmapScale();
-		'        scale.LevelsCount = percentMarksCount;
-		'        return scale;
-		'    }
-		'}
 
 		Friend Sub InitializeFrom(ByVal palette As MapPalette, ByVal scale As MapScale)
 			initialPalette = palette
@@ -266,8 +252,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
 				If customScale IsNot Nothing Then
 					percents = customScale.IsPercent
 					marks = New List(Of Double)(customScale.RangeStops)
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: absoluteMarksCount = percentMarksCount = marks.Count;
 					percentMarksCount = marks.Count
 					absoluteMarksCount = percentMarksCount
 				Else

@@ -83,8 +83,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 		Protected Overrides Sub UpdateControl(ByVal customItemData As CustomItemData)
 			skipMasterFiltering = True
 			tree.DataSource = Nothing
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: tree.ParentFieldName = tree.KeyFieldName = string.Empty;
 			tree.KeyFieldName = String.Empty
 			tree.ParentFieldName = tree.KeyFieldName
 			If Not ValidateBindings() Then
@@ -96,8 +94,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 		End Sub
 		Private Sub SetDataBindings(ByVal customItemData As CustomItemData)
 			Try
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: tree.DataSource = flatData = customItemData.GetFlatData();
 				flatData = customItemData.GetFlatData()
 				tree.DataSource = flatData
 				tree.PopulateColumns()
@@ -105,8 +101,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 				tree.KeyFieldName = dashboardItem.Metadata.ID.UniqueId
 				tree.ExpandAll()
 			Catch
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: tree.DataSource = flatData = null;
 				flatData = Nothing
 				tree.DataSource = flatData
 			End Try

@@ -75,8 +75,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
 			Me.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
 			Me.btnCancel.Name = "btnCancel"
 			Me.btnCancel.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.btnCancel.Click += new System.EventHandler(this.OnBtnCancelClick);
 			' 
 			' btnOK
 			' 
@@ -84,8 +82,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
 			Me.btnOK.AutoWidthInLayoutControl = True
 			Me.btnOK.Name = "btnOK"
 			Me.btnOK.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.btnOK.Click += new System.EventHandler(this.OnBtnOKClick);
 			' 
 			' layoutControlGroup8
 			' 

@@ -311,25 +311,25 @@ namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
     }
 
     public class ColorizerScale : BindingList<ColorizerScaleMark> {
-        Color color2;
-        Color color1;
-        bool hasChanges = false;
+        Color _color2;
+        Color _color1;
+        bool _hasChanges = false;
 
-        public bool HasChanges { get { return hasChanges; } }
+        public bool HasChanges { get { return _hasChanges; } }
         public Color Color1 {
-            get { return color1; }
+            get { return _color1; }
             set {
-                if(color1 != value) {
-                    color1 = value;
+                if(_color1 != value) {
+                    _color1 = value;
                     UpdateColors();
                 }
             }
         }
         public Color Color2 {
-            get { return color2; }
+            get { return _color2; }
             set {
-                if(color2 != value) {
-                    color2 = value;
+                if(_color2 != value) {
+                    _color2 = value;
                     UpdateColors();
                 }
             }
@@ -337,15 +337,15 @@ namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
 
         public ColorizerScale(Color color1, Color color2) {
             ListChanged += ColorizerScale_ListChanged;
-            this.color1 = color1;
-            this.color2 = color2;
+            this._color1 = color1;
+            this._color2 = color2;
             this.AllowNew = true;
         }
         public void UpdateScale(IList<double> marks) {
             Clear();
             for(int i = 0; i < marks.Count; i++)
-                Add(new ColorizerScaleMark(marks[i], ValueMapScaleHelper.GetGradientColor(color1, color2, i, marks.Count)));
-            hasChanges = false;
+                Add(new ColorizerScaleMark(marks[i], ValueMapScaleHelper.GetGradientColor(_color1, _color2, i, marks.Count)));
+            _hasChanges = false;
         }
         protected override object AddNewCore() {
             ColorizerScaleMark scaleMark = new ColorizerScaleMark(0, Color.Empty);
@@ -359,37 +359,37 @@ namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
                 e.ListChangedType == ListChangedType.ItemAdded || e.ListChangedType == ListChangedType.ItemDeleted || e.ListChangedType == ListChangedType.ItemMoved) {
                 UpdateColors();
             }
-            hasChanges = true;
+            _hasChanges = true;
         }
 
         void UpdateColors() {
             for(int i = 0; i < Count; i++) {
                 ColorizerScaleMark mark = this[i];
                 if(!mark.ColorChanged)
-                    mark.SetColor(ValueMapScaleHelper.GetGradientColor(color1, color2, i, Count));
+                    mark.SetColor(ValueMapScaleHelper.GetGradientColor(_color1, _color2, i, Count));
             }
         }
     }
     public class ColorizerScaleMark : INotifyPropertyChanged {
-        private bool colorChanged = false;
-        private Color color;
-        private double range;
-        public bool ColorChanged { get { return colorChanged; } }
+        private bool _colorChanged = false;
+        private Color _color;
+        private double _range;
+        public bool ColorChanged { get { return _colorChanged; } }
         public double Range {
-            get { return range; }
+            get { return _range; }
             set {
-                if(range != value) {
-                    range = value;
+                if(_range != value) {
+                    _range = value;
                     RaisePropertyChanged("Range");
                 }
             }
         }
         public Color Color {
-            get { return color; }
+            get { return _color; }
             set {
-                if(color != value) {
+                if(_color != value) {
                     SetColor(value);
-                    colorChanged = true;
+                    _colorChanged = true;
                     RaisePropertyChanged("Color");
                 }
             }
@@ -398,12 +398,12 @@ namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
         public event PropertyChangedEventHandler PropertyChanged;
 
         public ColorizerScaleMark(double range, Color color) {
-            this.range = range;
-            this.color = color;
+            this._range = range;
+            this._color = color;
         }
 
         public void SetColor(Color color) {
-            this.color = color;
+            this._color = color;
         }
         void RaisePropertyChanged(string propertyName) {
             PropertyChangedEventArgs args = new PropertyChangedEventArgs(propertyName);

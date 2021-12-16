@@ -74,11 +74,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 		End Function
 		Private Sub ClearDataBindings()
 			sunburst.Colorizer = Nothing
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: dataAdapter.DataSource = dataAdapter.ValueDataMember = dataAdapter.LabelDataMember = null;
 			dataAdapter.LabelDataMember = Nothing
-'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
-'ORIGINAL LINE: dataAdapter.DataSource = dataAdapter.ValueDataMember = dataAdapter.LabelDataMember
 			dataAdapter.ValueDataMember = dataAdapter.LabelDataMember
 			dataAdapter.DataSource = dataAdapter.ValueDataMember
 			dataAdapter.GroupDataMembers.Clear()
@@ -171,7 +167,6 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 		End Sub
 		Public Function GetItemColor(ByVal item As ISunburstItem, ByVal group As SunburstItemGroupInfo) As Color Implements ISunburstColorizer.GetItemColor
 			If group.GroupLevel < maxcoloringIndex Then
-'INSTANT VB WARNING: Instant VB cannot determine whether both operands of this division are integer types - if they are then you should use the VB integer division operator:
 				Dim alpha As Integer = 255 * (group.MaxGroupLevel - group.GroupLevel + 1) / (group.MaxGroupLevel + 1)
 				Return Color.FromArgb(alpha, defaultColor)
 			End If

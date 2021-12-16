@@ -93,8 +93,6 @@
 			Me.colorEdit2.Name = "colorEdit2"
 			Me.colorEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton((DirectCast(resources.GetObject("colorEdit2.Properties.Buttons"), DevExpress.XtraEditors.Controls.ButtonPredefines)))})
 			Me.colorEdit2.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.colorEdit2.EditValueChanged += new System.EventHandler(this.colorEdit2_EditValueChanged);
 			' 
 			' layoutControl1
 			' 
@@ -168,8 +166,6 @@
 			Me.allowEditCheckEdit.Name = "allowEditCheckEdit"
 			Me.allowEditCheckEdit.Properties.Caption = resources.GetString("allowEditCheckEdit.Properties.Caption")
 			Me.allowEditCheckEdit.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.allowEditCheckEdit.CheckedChanged += new System.EventHandler(this.allowEditCheckEdit_CheckedChanged);
 			' 
 			' absoluteLevelsEdit
 			' 
@@ -177,8 +173,6 @@
 			Me.absoluteLevelsEdit.Name = "absoluteLevelsEdit"
 			Me.absoluteLevelsEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton((DirectCast(resources.GetObject("absoluteLevelsEdit.Properties.Buttons"), DevExpress.XtraEditors.Controls.ButtonPredefines)))})
 			Me.absoluteLevelsEdit.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.absoluteLevelsEdit.EditValueChanged += new System.EventHandler(this.absoluteLevelsSpinEdit_EditValueChanged);
 			' 
 			' absoluteScaleCheckEdit
 			' 
@@ -189,8 +183,6 @@
 			Me.absoluteScaleCheckEdit.Properties.RadioGroupIndex = 0
 			Me.absoluteScaleCheckEdit.StyleController = Me.layoutControl1
 			Me.absoluteScaleCheckEdit.TabStop = False
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.absoluteScaleCheckEdit.CheckedChanged += new System.EventHandler(this.percentsCheckEdit_CheckedChanged);
 			' 
 			' percentLevelsEdit
 			' 
@@ -198,8 +190,6 @@
 			Me.percentLevelsEdit.Name = "percentLevelsEdit"
 			Me.percentLevelsEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton((DirectCast(resources.GetObject("percentLevelsEdit.Properties.Buttons"), DevExpress.XtraEditors.Controls.ButtonPredefines)))})
 			Me.percentLevelsEdit.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.percentLevelsEdit.EditValueChanged += new System.EventHandler(this.levelsEdit_EditValueChanged);
 			' 
 			' colorEdit1
 			' 
@@ -207,8 +197,6 @@
 			Me.colorEdit1.Name = "colorEdit1"
 			Me.colorEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton((DirectCast(resources.GetObject("colorEdit1.Properties.Buttons"), DevExpress.XtraEditors.Controls.ButtonPredefines)))})
 			Me.colorEdit1.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.colorEdit1.EditValueChanged += new System.EventHandler(this.colorEdit1_EditValueChanged);
 			' 
 			' percentsCheckEdit
 			' 
@@ -218,8 +206,6 @@
 			Me.percentsCheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio
 			Me.percentsCheckEdit.Properties.RadioGroupIndex = 0
 			Me.percentsCheckEdit.StyleController = Me.layoutControl1
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.percentsCheckEdit.CheckedChanged += new System.EventHandler(this.percentsCheckEdit_CheckedChanged);
 			' 
 			' autoColorsCheckEdit
 			' 
@@ -239,8 +225,6 @@
 			Me.customColorsCheckEdit.Properties.RadioGroupIndex = 1
 			Me.customColorsCheckEdit.StyleController = Me.layoutControl1
 			Me.customColorsCheckEdit.TabStop = False
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.customColorsCheckEdit.CheckedChanged += new System.EventHandler(this.customColorsCheckEdit_CheckedChanged);
 			' 
 			' layoutControlGroup1
 			' 

@@ -6,8 +6,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 	Public Class SunburstItemMetadata
 		Inherits CustomItemMetadata
 
-'INSTANT VB NOTE: The field arguments was renamed since Visual Basic does not allow fields to have the same name as other class members:
-		Private ReadOnly arguments_Renamed As New DimensionCollection()
+		Private ReadOnly _arguments As New DimensionCollection()
 		<DisplayName("Value"), EmptyDataItemPlaceholder("Value")>
 		Public Property Value() As Measure
 			Get
@@ -20,7 +19,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 		<DisplayName("Arguments"), EmptyDataItemPlaceholder("Argument"), SupportColoring(DefaultColoringMode.None), SupportInteractivity>
 		Public ReadOnly Property Arguments() As DimensionCollection
 			Get
-				Return arguments_Renamed
+				Return _arguments
 			End Get
 		End Property
 	End Class
