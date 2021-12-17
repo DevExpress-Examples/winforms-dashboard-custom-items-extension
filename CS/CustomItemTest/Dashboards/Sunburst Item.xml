@@ -21,7 +21,7 @@
     </ExcelDataSource>
   </DataSources>
   <Items>
-    <CustomItem ComponentName="sunburstItemMetadataDashboardItem1" Name="Sunburst 1" DataSource="dashboardExcelDataSource1" CustomItemType="SunburstItemMetadata">
+    <CustomItem ComponentName="sunburstItemMetadataDashboardItem1" Name="Products Number" DataSource="dashboardExcelDataSource1" CustomItemType="SunburstItemMetadata">
       <DataItems>
         <Dimension DataMember="CategoryName" ColoringMode="Hue" DefaultId="DataItem0" />
         <Dimension DataMember="ProductName" DefaultId="DataItem1" />
@@ -54,7 +54,7 @@
         </Arguments>
       </CustomMetadata>
     </CustomItem>
-    <Grid ComponentName="gridDashboardItem2" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+    <Grid ComponentName="gridDashboardItem2" Name="Products Data" DataSource="dashboardExcelDataSource1">
       <DataItems>
         <Measure DataMember="Quantity" DefaultId="DataItem2" />
         <Dimension DataMember="ProductName" DefaultId="DataItem1" />

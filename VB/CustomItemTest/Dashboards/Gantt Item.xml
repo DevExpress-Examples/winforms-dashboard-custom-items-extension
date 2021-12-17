@@ -51,7 +51,7 @@
     </SqlDataSource>
   </DataSources>
   <Items>
-    <CustomItem ComponentName="ganttItemMetadataDashboardItem1" Name="Gantt 1" DataSource="dashboardSqlDataSource1" DataMember="TaskDataItem" CustomItemType="GanttItemMetadata">
+    <CustomItem ComponentName="ganttItemMetadataDashboardItem1" Name="Work Plan Schedule" DataSource="dashboardSqlDataSource1" DataMember="TaskDataItem" CustomItemType="GanttItemMetadata">
       <DataItems>
         <Dimension DataMember="UID" DefaultId="DataItem0" />
         <Dimension DataMember="ParentUID" DefaultId="DataItem1" />
@@ -79,8 +79,6 @@
       </InteractivityTargets>
       <ColoringDimensions>
         <Dimension DefaultId="DataItem4" />
-        <Dimension DefaultId="DataItem2" />
-        <Dimension DefaultId="DataItem3" />
       </ColoringDimensions>
       <CustomMetadata>
         <ID ItemType="Dimension" DefaultId="DataItem0" />
@@ -90,7 +88,7 @@
         <FinishDate ItemType="Dimension" DefaultId="DataItem3" />
       </CustomMetadata>
     </CustomItem>
-    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardSqlDataSource1" DataMember="TaskDataItem">
+    <Grid ComponentName="gridDashboardItem1" Name="Work Plan Data" DataSource="dashboardSqlDataSource1" DataMember="TaskDataItem">
       <DataItems>
         <Dimension DataMember="UID" DefaultId="DataItem0" />
         <Dimension DataMember="ParentUID" DefaultId="DataItem1" />

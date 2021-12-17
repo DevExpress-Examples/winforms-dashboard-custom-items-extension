@@ -23,7 +23,7 @@
     </ExcelDataSource>
   </DataSources>
   <Items>
-    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+    <Grid ComponentName="gridDashboardItem1" Name="Championship League Statistics" DataSource="dashboardExcelDataSource1">
       <InteractivityOptions MasterFilterMode="Multiple" />
       <DataItems>
         <Dimension DataMember="Stage" DefaultId="DataItem0" />
@@ -47,7 +47,7 @@
       </GridColumns>
       <GridOptions />
     </Grid>
-    <CustomItem ComponentName="funnelItemMetadataDashboardItem1" Name="Funnel 1" DataSource="dashboardExcelDataSource1" CustomItemType="FunnelItemMetadata">
+    <CustomItem ComponentName="funnelItemMetadataDashboardItem1" Name="Goals Scored" DataSource="dashboardExcelDataSource1" CustomItemType="FunnelItemMetadata">
       <InteractivityOptions MasterFilterMode="Multiple" />
       <DataItems>
         <Dimension DataMember="Stage" SortOrder="Descending" SortByMeasure="DataItem1" DefaultId="DataItem0" />
@@ -79,7 +79,7 @@
         </Arguments>
       </CustomMetadata>
     </CustomItem>
-    <ListBox ComponentName="listBoxDashboardItem1" Name="List Box 1" DataSource="dashboardExcelDataSource1">
+    <ListBox ComponentName="listBoxDashboardItem1" Name="Countries" DataSource="dashboardExcelDataSource1">
       <DataItems>
         <Dimension DataMember="Country" DefaultId="DataItem0" />
       </DataItems>

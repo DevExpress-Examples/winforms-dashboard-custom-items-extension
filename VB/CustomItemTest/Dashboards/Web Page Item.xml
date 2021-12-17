@@ -39,7 +39,7 @@
     </ExcelDataSource>
   </DataSources>
   <Items>
-    <CustomItem ComponentName="webPageItemMetadataDashboardItem1" Name="Web Page 1" DataSource="dashboardExcelDataSource1" CustomItemType="WebPageItemMetadata">
+    <CustomItem ComponentName="webPageItemMetadataDashboardItem1" Name="Country Overview" DataSource="dashboardExcelDataSource1" CustomItemType="WebPageItemMetadata">
       <CustomProperties>
         <URI>https://en.wikipedia.org/wiki/{0}</URI>
       </CustomProperties>
@@ -57,7 +57,7 @@
         <Attribute ItemType="Dimension" DefaultId="DataItem0" />
       </CustomMetadata>
     </CustomItem>
-    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+    <Grid ComponentName="gridDashboardItem1" Name="Country Population" DataSource="dashboardExcelDataSource1">
       <InteractivityOptions MasterFilterMode="Single" />
       <DataItems>
         <Dimension DataMember="Country" SortOrder="Descending" SortByMeasure="DataItem1" DefaultId="DataItem0" />

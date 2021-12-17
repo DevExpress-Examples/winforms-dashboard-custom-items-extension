@@ -45,7 +45,7 @@
     </SqlDataSource>
   </DataSources>
   <Items>
-    <CustomItem ComponentName="treeListItemMetaDataDashboardItem1" Name="Tree List 1" DataSource="dashboardSqlDataSource1" DataMember="Table" CustomItemType="TreeListItemMetadata">
+    <CustomItem ComponentName="treeListItemMetaDataDashboardItem1" Name="Budget Distribution" DataSource="dashboardSqlDataSource1" DataMember="Table" CustomItemType="TreeListItemMetadata">
       <InteractivityOptions MasterFilterMode="Multiple" />
       <DataItems>
         <Dimension DataMember="ID" DefaultId="DataItem0" />
@@ -67,6 +67,8 @@
       </SliceTables>
       <InteractivityTargets>
         <Dimension DefaultId="DataItem0" />
+        <Dimension DefaultId="DataItem1" />
+        <Dimension DefaultId="DataItem2" />
       </InteractivityTargets>
       <CustomMetadata>
         <ID ItemType="Dimension" DefaultId="DataItem0" />
@@ -79,7 +81,7 @@
         </Measures>
       </CustomMetadata>
     </CustomItem>
-    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardSqlDataSource1" DataMember="Table">
+    <Grid ComponentName="gridDashboardItem1" Name="Budget Distribution Data" DataSource="dashboardSqlDataSource1" DataMember="Table">
       <DataItems>
         <Dimension DataMember="ID" DefaultId="DataItem0" />
         <Dimension DataMember="ParentID" DefaultId="DataItem1" />

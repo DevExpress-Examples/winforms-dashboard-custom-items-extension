@@ -33,7 +33,7 @@
     </ExcelDataSource>
   </DataSources>
   <Items>
-    <CustomItem ComponentName="waypointMapItemMetadataDashboardItem1" Name="Waypoint Map 1" DataSource="dashboardExcelDataSource1" CustomItemType="WaypointMapItemMetadata">
+    <CustomItem ComponentName="waypointMapItemMetadataDashboardItem1" Name="Trade Routes" DataSource="dashboardExcelDataSource1" CustomItemType="WaypointMapItemMetadata">
       <InteractivityOptions MasterFilterMode="Multiple" />
       <DataItems>
         <Dimension DataMember="Exporter Latitude" DefaultId="DataItem0" />
@@ -64,7 +64,7 @@
         <TargetLongitude ItemType="Dimension" DefaultId="DataItem3" />
       </CustomMetadata>
     </CustomItem>
-    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+    <Grid ComponentName="gridDashboardItem1" Name="Trade Routes Data" DataSource="dashboardExcelDataSource1">
       <DataItems>
         <Dimension DataMember="Exporter Latitude" DefaultId="DataItem0" />
         <Dimension DataMember="Exporter Longitude" DefaultId="DataItem1" />

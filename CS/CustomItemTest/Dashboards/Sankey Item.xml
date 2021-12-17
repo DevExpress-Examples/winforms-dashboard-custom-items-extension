@@ -33,7 +33,7 @@
     </ExcelDataSource>
   </DataSources>
   <Items>
-    <CustomItem ComponentName="sankeyItemMetadataDashboardItem1" Name="Sankey 1" DataSource="dashboardExcelDataSource1" CustomItemType="SankeyItemMetadata">
+    <CustomItem ComponentName="sankeyItemMetadataDashboardItem1" Name="Trade Flow Worldwide" DataSource="dashboardExcelDataSource1" CustomItemType="SankeyItemMetadata">
       <InteractivityOptions MasterFilterMode="Multiple" />
       <DataItems>
         <Dimension DataMember="Importer Country" DefaultId="DataItem1" />
@@ -65,7 +65,7 @@
         <Source ItemType="Dimension" DefaultId="DataItem0" />
       </CustomMetadata>
     </CustomItem>
-    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+    <Grid ComponentName="gridDashboardItem1" Name="Trade Flow Data" DataSource="dashboardExcelDataSource1">
       <DataItems>
         <Dimension DataMember="Exporter Country" DefaultId="DataItem0" />
         <Dimension DataMember="Importer Country" DefaultId="DataItem1" />
