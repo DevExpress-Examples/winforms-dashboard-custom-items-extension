@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <ExcelDataSource Name="Excel Data Source 1" FileName="\Data\FunnelData.xlsx" ComponentName="dashboardExcelDataSource1">
+      <Options Type="DevExpress.DataAccess.Excel.ExcelSourceOptions" SkipEmptyRows="true" UseFirstRowAsHeader="true" SkipHiddenColumns="true" SkipHiddenRows="true">
+        <ImportSettings Type="DevExpress.DataAccess.Excel.ExcelWorksheetSettings" WorksheetName="Grid 1" />
+      </Options>
+      <Schema>
+        <FieldInfo Name="Country" Type="System.String" Selected="true" />
+        <FieldInfo Name="Stage" Type="System.String" Selected="true" />
+        <FieldInfo Name="Period" Type="System.String" Selected="true" />
+        <FieldInfo Name="Count" Type="System.Int32" Selected="true" />
+      </Schema>
+      <ResultSchema>
+        <View>
+          <Field Name="Country" Type="String" />
+          <Field Name="Stage" Type="String" />
+          <Field Name="Period" Type="String" />
+          <Field Name="Count" Type="Int32" />
+        </View>
+      </ResultSchema>
+    </ExcelDataSource>
+  </DataSources>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <DataItems>
+        <Dimension DataMember="Stage" DefaultId="DataItem0" />
+        <Dimension DataMember="Period" DefaultId="DataItem1" />
+        <Dimension DataMember="Country" DefaultId="DataItem2" />
+        <Measure DataMember="Count" DefaultId="DataItem3" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem3" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+    <CustomItem ComponentName="funnelItemMetadataDashboardItem1" Name="Funnel 1" DataSource="dashboardExcelDataSource1" CustomItemType="FunnelItemMetadata">
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <DataItems>
+        <Dimension DataMember="Stage" SortOrder="Descending" SortByMeasure="DataItem1" DefaultId="DataItem0" />
+        <Measure DataMember="Count" DefaultId="DataItem1" />
+      </DataItems>
+      <SliceTables>
+        <SliceTable Name="SliceTable1">
+          <Dimensions>
+            <Dimension DefaultId="DataItem0" />
+          </Dimensions>
+          <Measures>
+            <Measure DefaultId="DataItem1" />
+          </Measures>
+        </SliceTable>
+      </SliceTables>
+      <InteractivityTargets>
+        <Dimension DefaultId="DataItem0" />
+      </InteractivityTargets>
+      <ColoringDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </ColoringDimensions>
+      <ColoringMeasures>
+        <Measure DefaultId="DataItem1" />
+      </ColoringMeasures>
+      <CustomMetadata>
+        <Value ItemType="Measure" DefaultId="DataItem1" />
+        <Arguments>
+          <Item1 ItemType="Dimension" DefaultId="DataItem0" />
+        </Arguments>
+      </CustomMetadata>
+    </CustomItem>
+    <ListBox ComponentName="listBoxDashboardItem1" Name="List Box 1" DataSource="dashboardExcelDataSource1">
+      <DataItems>
+        <Dimension DataMember="Country" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ListBox>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Weight="100">
+      <LayoutGroup Orientation="Vertical" Weight="50">
+        <LayoutItem DashboardItem="funnelItemMetadataDashboardItem1" Weight="50" />
+        <LayoutItem DashboardItem="listBoxDashboardItem1" Weight="50" />
+      </LayoutGroup>
+      <LayoutItem DashboardItem="gridDashboardItem1" Weight="50" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

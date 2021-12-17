@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <ExcelDataSource Name="Excel Data Source 1" FileName="\Data\WaypointMapData.xlsx" ComponentName="dashboardExcelDataSource1">
+      <Options Type="DevExpress.DataAccess.Excel.ExcelSourceOptions" SkipEmptyRows="true" UseFirstRowAsHeader="true" SkipHiddenColumns="true" SkipHiddenRows="true">
+        <ImportSettings Type="DevExpress.DataAccess.Excel.ExcelWorksheetSettings" WorksheetName="Grid 1" />
+      </Options>
+      <Schema>
+        <FieldInfo Name="Exporter Country" Type="System.String" Selected="true" />
+        <FieldInfo Name="Exporter Continent" Type="System.String" Selected="true" />
+        <FieldInfo Name="Exporter Latitude" Type="System.Double" Selected="true" />
+        <FieldInfo Name="Exporter Longitude" Type="System.Double" Selected="true" />
+        <FieldInfo Name="Importer Country" Type="System.String" Selected="true" />
+        <FieldInfo Name="Importer Continent" Type="System.String" Selected="true" />
+        <FieldInfo Name="Importer Latitude" Type="System.Double" Selected="true" />
+        <FieldInfo Name="Importer Longitude" Type="System.Double" Selected="true" />
+        <FieldInfo Name="Trade Amount" Type="System.Double" Selected="true" />
+      </Schema>
+      <ResultSchema>
+        <View>
+          <Field Name="Exporter Country" Type="String" />
+          <Field Name="Exporter Continent" Type="String" />
+          <Field Name="Exporter Latitude" Type="Double" />
+          <Field Name="Exporter Longitude" Type="Double" />
+          <Field Name="Importer Country" Type="String" />
+          <Field Name="Importer Continent" Type="String" />
+          <Field Name="Importer Latitude" Type="Double" />
+          <Field Name="Importer Longitude" Type="Double" />
+          <Field Name="Trade Amount" Type="Double" />
+        </View>
+      </ResultSchema>
+    </ExcelDataSource>
+  </DataSources>
+  <Items>
+    <CustomItem ComponentName="waypointMapItemMetadataDashboardItem1" Name="Waypoint Map 1" DataSource="dashboardExcelDataSource1" CustomItemType="WaypointMapItemMetadata">
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <DataItems>
+        <Dimension DataMember="Exporter Latitude" DefaultId="DataItem0" />
+        <Dimension DataMember="Exporter Longitude" DefaultId="DataItem1" />
+        <Dimension DataMember="Importer Latitude" DefaultId="DataItem2" />
+        <Dimension DataMember="Importer Longitude" DefaultId="DataItem3" />
+      </DataItems>
+      <SliceTables>
+        <SliceTable Name="SliceTable1">
+          <Dimensions>
+            <Dimension DefaultId="DataItem0" />
+            <Dimension DefaultId="DataItem1" />
+            <Dimension DefaultId="DataItem2" />
+            <Dimension DefaultId="DataItem3" />
+          </Dimensions>
+        </SliceTable>
+      </SliceTables>
+      <InteractivityTargets>
+        <Dimension DefaultId="DataItem0" />
+        <Dimension DefaultId="DataItem1" />
+        <Dimension DefaultId="DataItem2" />
+        <Dimension DefaultId="DataItem3" />
+      </InteractivityTargets>
+      <CustomMetadata>
+        <SourceLatitude ItemType="Dimension" DefaultId="DataItem0" />
+        <SourceLongitude ItemType="Dimension" DefaultId="DataItem1" />
+        <TargetLatitude ItemType="Dimension" DefaultId="DataItem2" />
+        <TargetLongitude ItemType="Dimension" DefaultId="DataItem3" />
+      </CustomMetadata>
+    </CustomItem>
+    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dashboardExcelDataSource1">
+      <DataItems>
+        <Dimension DataMember="Exporter Latitude" DefaultId="DataItem0" />
+        <Dimension DataMember="Exporter Longitude" DefaultId="DataItem1" />
+        <Dimension DataMember="Importer Latitude" DefaultId="DataItem2" />
+        <Dimension DataMember="Importer Longitude" DefaultId="DataItem3" />
+        <Dimension DataMember="Exporter Country" DefaultId="DataItem4" />
+        <Dimension DataMember="Importer Country" DefaultId="DataItem5" />
+        <Measure DataMember="Trade Amount" DefaultId="DataItem6" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem4" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem5" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem3" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem6" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical" Weight="100">
+      <LayoutItem DashboardItem="waypointMapItemMetadataDashboardItem1" Weight="50" />
+      <LayoutItem DashboardItem="gridDashboardItem1" Weight="50" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
