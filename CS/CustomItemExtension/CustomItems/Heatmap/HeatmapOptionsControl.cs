@@ -13,6 +13,8 @@ using DevExpress.XtraEditors;
 using DevExpress.XtraLayout;
 using DevExpress.XtraMap;
 using DevExpress.XtraMap.Native;
+using DevExpress.XtraMap.Native.SupportSkin;
+
 namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
 	public partial class HeatmapOptionsControl : DashboardUserControl {
         static bool ScaleEquals(ColorizerScale scale1, ColorizerScale scale2) {
@@ -48,7 +50,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
 
         public HeatmapOptionsControl() {
             InitializeComponent();
-            autoColors = ColorizerPaletteHelper.GetGradientColors(LookAndFeel);
+            autoColors = SkinMapPaletteHolder.GetGradientColors(LookAndFeel);
             userColor1 = autoColors[0];
             userColor2 = autoColors[1];
             absoluteScale = new ColorizerScale(userColor1, userColor2);

@@ -16,6 +16,7 @@ using DevExpress.XtraCharts;
 using DevExpress.XtraCharts.Heatmap;
 using DevExpress.XtraMap;
 using DevExpress.XtraMap.Native;
+using DevExpress.XtraMap.Native.SupportSkin;
 using DevExpress.XtraReports.UI;
 using HeatmapDataSourceAdapter = DevExpress.XtraCharts.Heatmap.HeatmapDataSourceAdapter;
 
@@ -121,7 +122,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
             Palette palette = new Palette("HeatmapCustomPalette");
             List<Color> colors = new List<Color>();
             if(dashboardItem.Metadata.Palette == null) {
-                ColorCollection autoColors = ColorizerPaletteHelper.GetGradientColors(DevExpress.LookAndFeel.UserLookAndFeel.Default);
+                ColorCollection autoColors = SkinMapPaletteHolder.GetGradientColors(DevExpress.LookAndFeel.UserLookAndFeel.Default);
                 for(int i = 0; i < rangesCount; i++)
                     colors.Add(ValueMapScaleHelper.GetGradientColor(autoColors[0], autoColors[1], i, rangesCount));
             }

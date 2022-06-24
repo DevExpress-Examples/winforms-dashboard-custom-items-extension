@@ -18,6 +18,7 @@ Imports DevExpress.XtraMap
 Imports DevExpress.XtraMap.Native
 Imports DevExpress.XtraReports.UI
 Imports HeatmapDataSourceAdapter = DevExpress.XtraCharts.Heatmap.HeatmapDataSourceAdapter
+Imports DevExpress.XtraMap.Native.SupportSkin
 
 Namespace DevExpresss.DashboardWin.CustomItemExtension
 	Public Class HeatmapItemControlProvider
@@ -122,8 +123,8 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 			Dim palette As New Palette("HeatmapCustomPalette")
 			Dim colors As New List(Of Color)()
 			If dashboardItem.Metadata.Palette Is Nothing Then
-				Dim autoColors As ColorCollection = ColorizerPaletteHelper.GetGradientColors(DevExpress.LookAndFeel.UserLookAndFeel.Default)
-				Dim i As Integer = 0
+                Dim autoColors As ColorCollection = SkinMapPaletteHolder.GetGradientColors(DevExpress.LookAndFeel.UserLookAndFeel.Default)
+                Dim i As Integer = 0
 				Do While i < rangesCount
 					colors.Add(ValueMapScaleHelper.GetGradientColor(autoColors(0), autoColors(1), i, rangesCount))
 					i += 1
