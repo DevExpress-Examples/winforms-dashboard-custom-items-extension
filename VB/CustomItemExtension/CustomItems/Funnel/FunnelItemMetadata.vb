@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports System.ComponentModel
 Imports DevExpress.DashboardCommon
 Imports DevExpress.XtraCharts

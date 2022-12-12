@@ -1,4 +1,4 @@
-﻿using DevExpress.DashboardWin;
+using DevExpress.DashboardWin;
 using System;
 using System.Collections.Generic;
 using System.Linq;

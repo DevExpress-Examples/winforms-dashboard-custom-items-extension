@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 
 Namespace DevExpresss.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
 	Partial Public Class UriEditForm

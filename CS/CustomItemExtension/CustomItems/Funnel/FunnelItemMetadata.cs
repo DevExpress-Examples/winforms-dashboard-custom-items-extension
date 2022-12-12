@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using DevExpress.DashboardCommon;
 using DevExpress.XtraCharts;

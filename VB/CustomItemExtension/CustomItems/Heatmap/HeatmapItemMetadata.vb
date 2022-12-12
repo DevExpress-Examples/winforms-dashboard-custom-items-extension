@@ -1,4 +1,4 @@
-﻿Imports DevExpress.DashboardCommon
+Imports DevExpress.DashboardCommon
 Imports Newtonsoft.Json
 Imports System
 Imports System.ComponentModel
