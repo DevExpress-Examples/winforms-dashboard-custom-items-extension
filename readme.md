@@ -290,4 +290,4 @@ End Sub
 
 ## More Examples
 
-[Custom Items - Tutorial](https://github.com/DevExpress-Examples/winforms-dashboard-custom-items)
+[Dashboard for WinForms - Custom Item Tutorials](https://github.com/DevExpress-Examples/winforms-dashboard-custom-items)
