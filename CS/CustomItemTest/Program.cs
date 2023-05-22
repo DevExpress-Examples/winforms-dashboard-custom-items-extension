@@ -1,4 +1,4 @@
-﻿using DevExpress.Skins;
+using DevExpress.Skins;
 using DevExpress.UserSkins;
 using System;
 using System.Collections.Generic;

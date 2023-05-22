@@ -1,4 +1,4 @@
-﻿Imports System.Collections.Generic
+Imports System.Collections.Generic
 Imports System.Drawing
 Imports System.Linq
 Imports System.Windows.Forms

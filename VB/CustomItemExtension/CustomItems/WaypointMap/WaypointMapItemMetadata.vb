@@ -1,4 +1,4 @@
-﻿Imports System.ComponentModel
+Imports System.ComponentModel
 Imports DevExpress.DashboardCommon
 
 Namespace DevExpresss.DashboardWin.CustomItemExtension

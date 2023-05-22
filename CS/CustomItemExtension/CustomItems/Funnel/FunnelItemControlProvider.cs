@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
@@ -63,7 +63,6 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
             e.LabelText = e.SeriesPoint.Argument + " - " + formattedValue;
             e.LegendText = e.SeriesPoint.Argument;
         }
-        # region MasterFiltering
         bool stopEvent = false;
         protected override void SetSelection(CustomItemSelection selection) {
             stopEvent = true;
@@ -112,7 +111,6 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
                     break;
             }
         }
-        #endregion
         void MouseDoubleClick(object sender, MouseEventArgs e) {
             ChartHitInfo hitInfo = chart.CalcHitInfo(e.Location);
             if(hitInfo.InSeriesPoint) {

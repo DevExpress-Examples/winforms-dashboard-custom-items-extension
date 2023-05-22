@@ -1,4 +1,4 @@
-﻿
+
 using DevExpress.DashboardCommon;
 using DevExpress.XtraBars.Navigation;
 using DevExpresss.DashboardWin.CustomItemExtension;

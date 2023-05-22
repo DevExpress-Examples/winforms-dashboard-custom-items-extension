@@ -1,4 +1,4 @@
-﻿Imports DevExpress.DashboardCommon
+Imports DevExpress.DashboardCommon
 Imports DevExpress.DashboardWin
 Imports DevExpress.XtraPrinting.Drawing
 Imports DevExpress.XtraReports.UI

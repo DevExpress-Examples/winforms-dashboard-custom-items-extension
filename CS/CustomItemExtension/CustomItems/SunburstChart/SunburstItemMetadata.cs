@@ -1,4 +1,4 @@
-﻿using DevExpress.DashboardCommon;
+using DevExpress.DashboardCommon;
 using System.ComponentModel;
 
 namespace DevExpresss.DashboardWin.CustomItemExtension {

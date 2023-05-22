@@ -1,4 +1,4 @@
-﻿Imports DevExpress.Skins
+Imports DevExpress.Skins
 Imports DevExpress.UserSkins
 Imports System
 Imports System.Collections.Generic

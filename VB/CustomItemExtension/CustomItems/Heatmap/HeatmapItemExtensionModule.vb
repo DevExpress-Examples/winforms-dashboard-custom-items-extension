@@ -1,4 +1,4 @@
-﻿Imports DevExpress.DashboardCommon
+Imports DevExpress.DashboardCommon
 Imports DevExpress.DashboardWin
 Imports DevExpress.DashboardWin.Native
 Imports DevExpress.Utils.Svg
