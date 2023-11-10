@@ -1,4 +1,4 @@
-﻿using DevExpress.DashboardCommon;
+using DevExpress.DashboardCommon;
 using DevExpress.DashboardWin;
 using DevExpress.XtraPrinting.Drawing;
 using DevExpress.XtraReports.UI;

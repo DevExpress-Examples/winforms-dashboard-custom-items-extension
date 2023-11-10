@@ -1,4 +1,4 @@
-﻿Imports DevExpress.DashboardWin
+Imports DevExpress.DashboardWin
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq

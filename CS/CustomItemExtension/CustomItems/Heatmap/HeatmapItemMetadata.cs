@@ -1,4 +1,4 @@
-﻿using DevExpress.DashboardCommon;
+using DevExpress.DashboardCommon;
 using Newtonsoft.Json;
 using System;
 using System.ComponentModel;

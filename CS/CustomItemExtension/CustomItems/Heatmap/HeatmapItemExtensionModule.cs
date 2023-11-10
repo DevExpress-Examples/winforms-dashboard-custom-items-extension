@@ -1,4 +1,4 @@
-﻿using DevExpress.DashboardCommon;
+using DevExpress.DashboardCommon;
 using DevExpress.DashboardWin;
 using DevExpress.DashboardWin.Native;
 using DevExpress.Utils.Svg;
