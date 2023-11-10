@@ -1,5 +1,5 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/397868195/2023.1)
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/397868195/22.1.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1023113)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
@@ -8,7 +8,7 @@
 This example contains the source code of the most requested custom items. Custom items allow you to embed any WinForms control into a [Dashboard](https://www.devexpress.com/products/net/dashboard/). You can use the complete custom items from this example as they are, or modify them according to your needs. 
 In a test dashboard of this example, you can add custom items from the Ribbon and switch between tabs in the [ribbon UI main menu](https://docs.devexpress.com/WindowsForms/5482/controls-and-libraries/ribbon-bars-and-menu/common-features/look-and-feel) at the left edge to display each custom item on the [dashboard surface](https://docs.devexpress.com/Dashboard/18205/winforms-dashboard/winforms-designer/ui-elements/dashboard-surface?p=netframework).
 
-![custom-item-overview](images/custom-items-overview.png)
+![custom-item-overview](Images/custom-items-overview.png)
 
 ## Prerequisites  
 
@@ -49,7 +49,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/SankeyChart)/[VB](VB/CustomI
 
 The Sankey diagram visualizes data as weighted flows or relationships between nodes.
 
-![Sankey](images/Sankey.png)
+![Sankey](Images/Sankey.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
@@ -61,7 +61,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/SunburstChart)/[VB](VB/Custo
 
 The Sunburst chart combines a Treemap and Pie chart to visualize hierarchical data in a circular layout.
 
-![Sunburst](images/SunBurst.png)
+![Sunburst](Images/SunBurst.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
@@ -73,7 +73,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/TreeList)/[VB](VB/CustomItem
 
 The hybrid item combines a Tree List and Grid. The Tree List uses the parent-child relationships to generate the hierarchical data structure.
 
-![TreeList](images/Treelist.png)
+![TreeList](Images/Treelist.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
@@ -86,7 +86,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/WaypointMap)/[VB](VB/CustomI
 
 The Waypoint map visualizes data as linked points.
 
-![WayPointMap](images/WayPointMap.png)
+![WayPointMap](Images/WayPointMap.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
@@ -99,7 +99,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/Funnel)/[VB](VB/CustomItemEx
 
 The Funnel chart visualizes the progressive reduction of data as it passes from one stage to another in a process or procedure.
 
-![Funnel](images/Funnel.png)
+![Funnel](Images/Funnel.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
@@ -113,7 +113,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/GanttItem)/[VB](VB/CustomIte
 
 The Gantt chart visualizes project schedule data as bars.
 
-![Gantt](images/Gantt.png)
+![Gantt](Images/Gantt.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
@@ -126,7 +126,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/WebPageItem)/[VB](VB/CustomI
 
 The Web Page displays the web content. You can specify the URI pattern to create the page address from a data column at run-time.
 
-![Web Page](images/webpage.png)
+![Web Page](Images/webpage.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Master-Filter
@@ -139,7 +139,7 @@ View file: ([C#](CS/CustomItemExtension/CustomItems/Heatmap)/[VB](VB/CustomItemE
 
 The Heatmap item uses color variation to show the relationship between two dimensions.
 
-![Heatmap](images/Heatmap.png)
+![Heatmap](Images/Heatmap.png)
 
 This custom item implements the following [functionality](https://docs.devexpress.com/Dashboard/403031/winforms-dashboard/winforms-designer/create-a-custom-item?p=netframework):
 * Export
