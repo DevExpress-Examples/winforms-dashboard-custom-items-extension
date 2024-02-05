@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension
+namespace DevExpress.DashboardWin.CustomItemExtension
 {
     public class TreeListItemControlProvider : CustomControlProviderBase {
         string validationError = string.Empty;

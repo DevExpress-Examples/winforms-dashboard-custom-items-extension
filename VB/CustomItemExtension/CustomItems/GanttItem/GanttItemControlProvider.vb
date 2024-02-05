@@ -9,7 +9,7 @@ Imports System.Drawing
 Imports System.Linq
 Imports System.Windows.Forms
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class GanttItemControlProvider
 		Inherits CustomControlProviderBase
 

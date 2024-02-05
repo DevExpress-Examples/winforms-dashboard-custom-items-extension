@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
 
     public class FunnelItemExtensionModule : IExtensionModule {
         IDashboardControl dashboardControl;

@@ -6,7 +6,7 @@ Imports System.Linq
 Imports System.Text
 Imports System.Threading.Tasks
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 
 	Public Class FunnelItemExtensionModule
 		Implements IExtensionModule

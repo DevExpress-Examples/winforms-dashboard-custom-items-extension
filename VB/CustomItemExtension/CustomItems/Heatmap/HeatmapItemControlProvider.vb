@@ -20,7 +20,7 @@ Imports DevExpress.XtraReports.UI
 Imports HeatmapDataSourceAdapter = DevExpress.XtraCharts.Heatmap.HeatmapDataSourceAdapter
 Imports DevExpress.XtraMap.Native.SupportSkin
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class HeatmapItemControlProvider
 		Inherits CustomControlProviderBase
 

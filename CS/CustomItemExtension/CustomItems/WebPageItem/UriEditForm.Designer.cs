@@ -1,5 +1,5 @@
 ﻿
-namespace DevExpresss.DashboardWin.CustomItemExtension.CustomItems.WebPageItem {
+namespace DevExpress.DashboardWin.CustomItemExtension.CustomItems.WebPageItem {
     partial class UriEditForm {
         /// <summary>
         /// Required designer variable.

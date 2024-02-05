@@ -3,10 +3,10 @@ using System.ComponentModel;
 using DevExpress.DashboardCommon;
 using DevExpress.XtraCharts;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     [DisplayName("Funnel"),
     CustomItemDescription("Create a Funnel chart dashboard item and insert it into the dashboard.\n\nThe Funnel chart visualizes the progressive reduction of data as it passes from one stage to another in a process or procedure."),
-    CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.FunnelItem.svg")]
+    CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.FunnelItem.svg")]
     public class FunnelItemMetadata : CustomItemMetadata {
         [DisplayName("Value"),
         EmptyDataItemPlaceholder("Value"),

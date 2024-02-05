@@ -13,7 +13,7 @@ Imports DevExpress.Utils.Extensions
 Imports DevExpress.XtraReports.UI
 Imports DevExpress.XtraTreeMap
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class SunburstItemControlProvider
 		Inherits CustomControlProviderBase
 

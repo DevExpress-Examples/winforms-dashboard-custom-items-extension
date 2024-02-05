@@ -1,6 +1,6 @@
 using System;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
+namespace DevExpress.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
 {
     public partial class UriEditForm : DevExpress.XtraEditors.XtraForm {
 		public string UriPattern { get { return teUriPattern.Text; } set { teUriPattern.Text = value; } }

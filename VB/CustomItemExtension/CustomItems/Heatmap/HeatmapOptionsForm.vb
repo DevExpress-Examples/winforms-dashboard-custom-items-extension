@@ -6,9 +6,9 @@ Imports DevExpress.DashboardCommon
 Imports DevExpress.DashboardWin.Native
 Imports DevExpress.XtraLayout
 Imports DevExpress.XtraLayout.Utils
-Imports DevExpresss.DashboardWin.CustomItemExtension
+Imports DevExpress.DashboardWin.CustomItemExtension
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
+Namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap
 	Partial Public Class HeatmapOptionsForm
 		Inherits DashboardForm
 

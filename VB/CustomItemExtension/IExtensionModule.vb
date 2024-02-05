@@ -5,7 +5,7 @@ Imports System.Linq
 Imports System.Text
 Imports System.Threading.Tasks
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Interface IExtensionModule
 		Sub AttachViewer(ByVal viewer As DashboardViewer)
 		Sub DetachViewer()

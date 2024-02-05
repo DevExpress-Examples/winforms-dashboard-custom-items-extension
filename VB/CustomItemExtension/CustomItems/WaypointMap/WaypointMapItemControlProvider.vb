@@ -10,7 +10,7 @@ Imports System.Linq
 Imports System.Reflection
 Imports System.Windows.Forms
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class WaypointMapItemControlProvider
 		Inherits CustomControlProviderBase
 
@@ -143,7 +143,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 			map.Overlays.Add(validationOverlay)
 
 			Dim copyrightOverlay As New MapOverlay() With {.Alignment = ContentAlignment.BottomRight}
-			Using stream As Stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpresss.DashboardWin.CustomItemExtension.Images.BingLogo.png")
+			Using stream As Stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpress.DashboardWin.CustomItemExtension.Images.BingLogo.png")
 				If stream IsNot Nothing Then
 					Dim copyrightImageItem As New MapOverlayImageItem()
 					copyrightImageItem.Image = Image.FromStream(stream)

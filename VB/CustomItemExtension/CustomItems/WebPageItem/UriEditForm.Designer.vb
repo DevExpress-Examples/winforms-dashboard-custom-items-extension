@@ -1,4 +1,4 @@
-﻿Namespace DevExpresss.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
+﻿Namespace DevExpress.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
 	Partial Public Class UriEditForm
 		''' <summary>
 		''' Required designer variable.

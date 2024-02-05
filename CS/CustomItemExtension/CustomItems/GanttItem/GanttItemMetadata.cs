@@ -1,11 +1,11 @@
 using DevExpress.DashboardCommon;
 using System.ComponentModel;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension
+namespace DevExpress.DashboardWin.CustomItemExtension
 {
     [DisplayName("Gantt"),
 CustomItemDescription("Create a Gantt dashboard item and insert it into the dashboard.\n\nThe Gantt item dispalys tasks organized in a tree list with a bar chart that visualizes a schedule data."),
-CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.GanttItem.svg")]
+CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.GanttItem.svg")]
     public class GanttItemMetadata : CustomItemMetadata {
         [DisplayName("ID"),
         EmptyDataItemPlaceholder("ID"),

@@ -3,7 +3,7 @@ using DevExpress.DashboardWin;
 using DevExpress.XtraBars;
 using DevExpress.XtraBars.Ribbon;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class WaypointMapItemExtensionModule:IExtensionModule  {
         IDashboardControl dashboardControl;
         string bingKey;

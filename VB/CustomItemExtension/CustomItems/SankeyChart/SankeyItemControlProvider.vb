@@ -11,7 +11,7 @@ Imports DevExpress.Utils.Extensions
 Imports DevExpress.XtraCharts.Sankey
 Imports DevExpress.XtraReports.UI
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class SankeyItemControlProvider
 		Inherits CustomControlProviderBase
 

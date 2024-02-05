@@ -2,11 +2,11 @@ using DevExpress.DashboardCommon;
 using System;
 using System.ComponentModel;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension
+namespace DevExpress.DashboardWin.CustomItemExtension
 {
     [DisplayName("Web Page"),
     CustomItemDescription("Create a Web Page dashboard item and insert it into the dashboard.\n\nThis item displays the web content. You can specify the URI pattern to create the page address from a data column at run-time."),
-    CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.WebPageItem.svg")]
+    CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.WebPageItem.svg")]
     public class WebPageItemMetadata : CustomItemMetadata {
         [
         DisplayName("Attribute"),

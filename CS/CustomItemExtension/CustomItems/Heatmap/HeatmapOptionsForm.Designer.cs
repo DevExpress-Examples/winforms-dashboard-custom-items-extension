@@ -1,6 +1,6 @@
 ﻿using DevExpress.DashboardWin.Native;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
+namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap {
     partial class HeatmapOptionsForm {
         private System.ComponentModel.IContainer components = null;
         protected override void Dispose(bool disposing) {
@@ -14,7 +14,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HeatmapOptionsForm));
             this.separator = new DevExpress.XtraEditors.LabelControl();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.valueMapControl = new DevExpresss.DashboardWin.CustomItemExtension.Heatmap.HeatmapOptionsControl();
+            this.valueMapControl = new DevExpress.DashboardWin.CustomItemExtension.Heatmap.HeatmapOptionsControl();
             this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
             this.btnOK = new DevExpress.XtraEditors.SimpleButton();
             this.layoutControlGroup8 = new DevExpress.XtraLayout.LayoutControlGroup();

@@ -7,7 +7,7 @@ using DevExpress.DashboardWin;
 using DevExpress.XtraCharts;
 using DevExpress.XtraReports.UI;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class FunnelItemControlProvider : CustomControlProviderBase {
         CustomDashboardItem<FunnelItemMetadata> dashboardItem;
         ChartControl chart;

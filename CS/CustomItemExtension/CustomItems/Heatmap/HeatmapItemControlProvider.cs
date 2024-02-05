@@ -20,7 +20,7 @@ using DevExpress.XtraMap.Native.SupportSkin;
 using DevExpress.XtraReports.UI;
 using HeatmapDataSourceAdapter = DevExpress.XtraCharts.Heatmap.HeatmapDataSourceAdapter;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class HeatmapItemControlProvider : CustomControlProviderBase {
         HeatmapControl heatmap;
         HeatmapDataSourceAdapter dataAdapter;

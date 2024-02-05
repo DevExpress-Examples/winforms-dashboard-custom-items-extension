@@ -1,4 +1,4 @@
-﻿namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
+﻿namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap {
 	partial class HeatmapOptionsControl {
 		private System.ComponentModel.IContainer components = null;
 		protected override void Dispose(bool disposing) {

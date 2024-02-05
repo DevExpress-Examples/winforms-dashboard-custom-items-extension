@@ -3,7 +3,7 @@ Imports Newtonsoft.Json
 Imports System
 Imports System.ComponentModel
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
     <DisplayName("Heatmap"), CustomItemDescription("Create a Heatmap dashboard item and insert it into the dashboard." & vbLf & vbLf & " The Heatmap item uses color variation to show the relationship between two dimensions."), CustomItemImage("HeatmapCustomItem.svg")>
     Public Class HeatmapItemMetadata
         Inherits CustomItemMetadata

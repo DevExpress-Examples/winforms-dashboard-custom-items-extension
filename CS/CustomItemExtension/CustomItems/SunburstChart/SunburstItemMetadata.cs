@@ -1,11 +1,11 @@
 using DevExpress.DashboardCommon;
 using System.ComponentModel;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     [
     DisplayName("Sunburst"),
     CustomItemDescription("Create a Sunburst dashboard item and insert it into the dashboard.\n\nThe Sunburst combines a TreeMap and a Pie chart to visualize hierarchical data in a circular layout."),
-    CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.SunburstCustomItem.svg")
+    CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.SunburstCustomItem.svg")
     ]
     public class SunburstItemMetadata : CustomItemMetadata {
         readonly DimensionCollection arguments = new DimensionCollection();

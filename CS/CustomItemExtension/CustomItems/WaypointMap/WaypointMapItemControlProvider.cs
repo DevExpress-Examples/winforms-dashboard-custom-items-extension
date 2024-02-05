@@ -10,7 +10,7 @@ using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class WaypointMapItemControlProvider : CustomControlProviderBase {
         public static string BingCopyright { get { return "Copyright © " + DateTime.Now.Year + " Microsoft and its suppliers. All rights reserved."; } }
 
@@ -138,7 +138,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
             map.Overlays.Add(validationOverlay);
 
             MapOverlay copyrightOverlay = new MapOverlay() { Alignment = ContentAlignment.BottomRight };
-            using(Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpresss.DashboardWin.CustomItemExtension.Images.BingLogo.png")) {
+            using(Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpress.DashboardWin.CustomItemExtension.Images.BingLogo.png")) {
                 if(stream != null) {
                     MapOverlayImageItem copyrightImageItem = new MapOverlayImageItem();
                     copyrightImageItem.Image = Image.FromStream(stream);

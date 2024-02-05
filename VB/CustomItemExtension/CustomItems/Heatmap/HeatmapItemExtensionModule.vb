@@ -4,12 +4,12 @@ Imports DevExpress.DashboardWin.Native
 Imports DevExpress.Utils.Svg
 Imports DevExpress.XtraBars
 Imports DevExpress.XtraBars.Ribbon
-Imports DevExpresss.DashboardWin.CustomItemExtension.Heatmap
+Imports DevExpress.DashboardWin.CustomItemExtension.Heatmap
 Imports System
 Imports System.IO
 Imports System.Reflection
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class HeatmapItemExtensionModule
 		Implements IExtensionModule
 
@@ -68,7 +68,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 				coloringGroup.AllowTextClipping = False
 			End If
 			editColorsBarItem = New BarButtonItem(designer.Ribbon.Manager, "Edit Colors")
-			editColorsBarItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ColorScheme.svg", Me.GetType().Assembly)
+			editColorsBarItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ColorScheme.svg", Me.GetType().Assembly)
 			AddHandler editColorsBarItem.ItemClick, AddressOf OptionsBarItem_ItemClick
 			coloringGroup.ItemLinks.Add(editColorsBarItem)
 			Dim group As RibbonPageGroup = page.GetGroupByName("Diagram")
@@ -79,7 +79,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 			End If
 			barShowLabelsItem = New BarCheckItem(designer.Ribbon.Manager)
 			barShowLabelsItem.Checked = False
-			barShowLabelsItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLabels.svg", Me.GetType().Assembly)
+			barShowLabelsItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLabels.svg", Me.GetType().Assembly)
 			barShowLabelsItem.Caption = "Show Labels"
 			AddHandler barShowLabelsItem.ItemClick, Sub(s, e)
 														If SelectedCustomItem IsNot Nothing Then
@@ -88,7 +88,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 													End Sub
 			barShowLegendItem = New BarCheckItem(designer.Ribbon.Manager)
 			barShowLegendItem.Checked = False
-			barShowLegendItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLegend.svg", Me.GetType().Assembly)
+			barShowLegendItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLegend.svg", Me.GetType().Assembly)
 			barShowLegendItem.Caption = "Show Legend"
 			AddHandler barShowLegendItem.ItemClick, Sub(s, e)
 														If SelectedCustomItem IsNot Nothing Then
@@ -97,7 +97,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 													End Sub
 			barEnableZoomXAxisItem = New BarCheckItem(designer.Ribbon.Manager)
 			barEnableZoomXAxisItem.Checked = False
-			barEnableZoomXAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollHorizontal.svg", Me.GetType().Assembly)
+			barEnableZoomXAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollHorizontal.svg", Me.GetType().Assembly)
 			barEnableZoomXAxisItem.Caption = "Enable Zooming X-Axis"
 			AddHandler barEnableZoomXAxisItem.ItemClick, Sub(s, e)
 															 If SelectedCustomItem IsNot Nothing Then
@@ -106,7 +106,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension
 														 End Sub
 			barEnableZoomYAxisItem = New BarCheckItem(designer.Ribbon.Manager)
 			barEnableZoomYAxisItem.Checked = False
-			barEnableZoomYAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollVertical.svg", Me.GetType().Assembly)
+			barEnableZoomYAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollVertical.svg", Me.GetType().Assembly)
 			barEnableZoomYAxisItem.Caption = "Enable Zooming Y-Axis"
 			AddHandler barEnableZoomYAxisItem.ItemClick, Sub(s, e)
 															 If SelectedCustomItem IsNot Nothing Then

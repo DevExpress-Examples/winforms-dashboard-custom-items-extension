@@ -15,7 +15,7 @@ using DevExpress.XtraMap;
 using DevExpress.XtraMap.Native;
 using DevExpress.XtraMap.Native.SupportSkin;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
+namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap {
 	public partial class HeatmapOptionsControl : DashboardUserControl {
         static bool ScaleEquals(ColorizerScale scale1, ColorizerScale scale2) {
             if(scale1 == null && scale2 == null)

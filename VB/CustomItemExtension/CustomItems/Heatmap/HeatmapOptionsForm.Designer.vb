@@ -1,6 +1,6 @@
 ﻿Imports DevExpress.DashboardWin.Native
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
+Namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap
 	Partial Public Class HeatmapOptionsForm
 		Private components As System.ComponentModel.IContainer = Nothing
 		Protected Overrides Sub Dispose(ByVal disposing As Boolean)
@@ -14,7 +14,7 @@ Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
 			Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(HeatmapOptionsForm))
 			Me.separator = New DevExpress.XtraEditors.LabelControl()
 			Me.layoutControl1 = New DevExpress.XtraLayout.LayoutControl()
-			Me.valueMapControl = New DevExpresss.DashboardWin.CustomItemExtension.Heatmap.HeatmapOptionsControl()
+			Me.valueMapControl = New DevExpress.DashboardWin.CustomItemExtension.Heatmap.HeatmapOptionsControl()
 			Me.btnCancel = New DevExpress.XtraEditors.SimpleButton()
 			Me.btnOK = New DevExpress.XtraEditors.SimpleButton()
 			Me.layoutControlGroup8 = New DevExpress.XtraLayout.LayoutControlGroup()

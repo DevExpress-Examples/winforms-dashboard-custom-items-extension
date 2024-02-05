@@ -6,8 +6,8 @@
     <ProjectGuid>{07419BD7-E4C9-4EEF-A01A-3D7B631D44DB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DevExpresss.DashboardWin.CustomItemExtension</RootNamespace>
-    <AssemblyName>DevExpresss.DashboardWin.CustomItemExtension</AssemblyName>
+    <RootNamespace>DevExpress.DashboardWin.CustomItemExtension</RootNamespace>
+    <AssemblyName>DevExpress.DashboardWin.CustomItemExtension</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

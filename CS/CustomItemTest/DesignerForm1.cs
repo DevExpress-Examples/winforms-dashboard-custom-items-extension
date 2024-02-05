@@ -1,7 +1,7 @@
 
 using DevExpress.DashboardCommon;
 using DevExpress.XtraBars.Navigation;
-using DevExpresss.DashboardWin.CustomItemExtension;
+using DevExpress.DashboardWin.CustomItemExtension;
 using System.IO;
 using System.Linq;
 

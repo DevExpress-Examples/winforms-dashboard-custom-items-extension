@@ -3,9 +3,9 @@ Imports DevExpress.DashboardWin
 Imports DevExpress.XtraBars
 Imports DevExpress.XtraBars.Ribbon
 Imports DevExpress.XtraEditors.Repository
-Imports DevExpresss.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
+Imports DevExpress.DashboardWin.CustomItemExtension.CustomItems.WebPageItem
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class WebPageItemExtensionModule
 		Implements IExtensionModule
 

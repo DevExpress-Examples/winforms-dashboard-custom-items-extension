@@ -13,7 +13,7 @@ using DevExpress.Utils.Extensions;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraTreeMap;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class SunburstItemControlProvider : CustomControlProviderBase {
         bool skipSelectionEvent = false;
         SunburstControl sunburst;

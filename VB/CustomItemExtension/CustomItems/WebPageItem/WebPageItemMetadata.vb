@@ -2,7 +2,7 @@ Imports DevExpress.DashboardCommon
 Imports System
 Imports System.ComponentModel
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	<DisplayName("Web Page"), CustomItemDescription("Create a Web Page dashboard item and insert it into the dashboard." & vbLf & vbLf & "This item displays the web content. You can specify the URI pattern to create the page address from a data column at run-time."), CustomItemImage("WebPageItem.svg")>
 	Public Class WebPageItemMetadata
 		Inherits CustomItemMetadata

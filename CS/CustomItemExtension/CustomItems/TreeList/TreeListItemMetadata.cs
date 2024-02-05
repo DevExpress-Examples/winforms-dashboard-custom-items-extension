@@ -1,12 +1,12 @@
 using DevExpress.DashboardCommon;
 using System.ComponentModel;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension
+namespace DevExpress.DashboardWin.CustomItemExtension
 {
     [
     DisplayName("Tree List"),
     CustomItemDescription("Create a Tree List dashboard item and insert it into the dashboard.\n\nThis hybrid item combines a Tree List and Grid. The Tree List uses the parent-child relationships to generate the hierarchical data structure."),
-    CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.TreeListItem.svg")
+    CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.TreeListItem.svg")
     ]
     public class TreeListItemMetadata : CustomItemMetadata {
         [

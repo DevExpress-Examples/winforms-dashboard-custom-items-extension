@@ -15,7 +15,7 @@ Imports DevExpress.XtraMap
 Imports DevExpress.XtraMap.Native
 Imports DevExpress.XtraMap.Native.SupportSkin
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
+Namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap
     Partial Public Class HeatmapOptionsControl
         Inherits DashboardUserControl
 

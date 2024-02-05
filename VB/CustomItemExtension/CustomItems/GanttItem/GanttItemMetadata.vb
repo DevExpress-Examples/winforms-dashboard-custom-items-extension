@@ -1,7 +1,7 @@
 Imports DevExpress.DashboardCommon
 Imports System.ComponentModel
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	<DisplayName("Gantt"), CustomItemDescription("Create a Gantt dashboard item and insert it into the dashboard." & vbLf & vbLf & "The Gantt item dispalys tasks organized in a tree list with a bar chart that visualizes a schedule data."), CustomItemImage("GanttItem.svg")>
 	Public Class GanttItemMetadata
 		Inherits CustomItemMetadata

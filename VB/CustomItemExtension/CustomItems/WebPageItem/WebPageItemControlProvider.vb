@@ -9,7 +9,7 @@ Imports System.Drawing
 Imports System.IO
 Imports System.Windows.Forms
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class WebPageItemControlProvider
 		Inherits CustomControlProviderBase
 

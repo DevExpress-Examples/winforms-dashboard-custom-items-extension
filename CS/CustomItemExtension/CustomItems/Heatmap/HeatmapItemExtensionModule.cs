@@ -4,12 +4,12 @@ using DevExpress.DashboardWin.Native;
 using DevExpress.Utils.Svg;
 using DevExpress.XtraBars;
 using DevExpress.XtraBars.Ribbon;
-using DevExpresss.DashboardWin.CustomItemExtension.Heatmap;
+using DevExpress.DashboardWin.CustomItemExtension.Heatmap;
 using System;
 using System.IO;
 using System.Reflection;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class HeatmapItemExtensionModule : IExtensionModule {
         BarButtonItem editColorsBarItem;
         BarCheckItem barShowLabelsItem;
@@ -57,7 +57,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
                 coloringGroup.AllowTextClipping = false;
             }
             editColorsBarItem = new BarButtonItem(designer.Ribbon.Manager, "Edit Colors");
-            editColorsBarItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ColorScheme.svg", this.GetType().Assembly);
+            editColorsBarItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ColorScheme.svg", this.GetType().Assembly);
             editColorsBarItem.ItemClick += OptionsBarItem_ItemClick;
             coloringGroup.ItemLinks.Add(editColorsBarItem);
             RibbonPageGroup group = page.GetGroupByName("Diagram");
@@ -68,7 +68,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
             }
             barShowLabelsItem = new BarCheckItem(designer.Ribbon.Manager);
             barShowLabelsItem.Checked = false;
-            barShowLabelsItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLabels.svg", this.GetType().Assembly);
+            barShowLabelsItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLabels.svg", this.GetType().Assembly);
             barShowLabelsItem.Caption = "Show Labels";
             barShowLabelsItem.ItemClick += (s, e) => {
                 if(SelectedCustomItem != null)
@@ -76,7 +76,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
             };
             barShowLegendItem = new BarCheckItem(designer.Ribbon.Manager);
             barShowLegendItem.Checked = false;
-            barShowLegendItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLegend.svg", this.GetType().Assembly);
+            barShowLegendItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ShowLegend.svg", this.GetType().Assembly);
             barShowLegendItem.Caption = "Show Legend";
             barShowLegendItem.ItemClick += (s, e) => {
                 if(SelectedCustomItem != null)
@@ -84,7 +84,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
             };
             barEnableZoomXAxisItem = new BarCheckItem(designer.Ribbon.Manager);
             barEnableZoomXAxisItem.Checked = false;
-            barEnableZoomXAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollHorizontal.svg", this.GetType().Assembly);
+            barEnableZoomXAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollHorizontal.svg", this.GetType().Assembly);
             barEnableZoomXAxisItem.Caption = "Enable Zooming X-Axis";
             barEnableZoomXAxisItem.ItemClick += (s, e) => {
                 if(SelectedCustomItem != null)
@@ -92,7 +92,7 @@ namespace DevExpresss.DashboardWin.CustomItemExtension {
             };
             barEnableZoomYAxisItem = new BarCheckItem(designer.Ribbon.Manager);
             barEnableZoomYAxisItem.Checked = false;
-            barEnableZoomYAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpresss.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollVertical.svg", this.GetType().Assembly);
+            barEnableZoomYAxisItem.ImageOptions.SvgImage = SvgImage.FromResources("DevExpress.DashboardWin.CustomItemExtension.Images.Heatmap_ScrollVertical.svg", this.GetType().Assembly);
             barEnableZoomYAxisItem.Caption = "Enable Zooming Y-Axis";
             barEnableZoomYAxisItem.ItemClick += (s, e) => {
                 if(SelectedCustomItem != null)

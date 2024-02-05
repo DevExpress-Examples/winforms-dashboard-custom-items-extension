@@ -3,11 +3,11 @@ using Newtonsoft.Json;
 using System;
 using System.ComponentModel;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     [
     DisplayName("Heatmap"),
     CustomItemDescription("Create a Heatmap dashboard item and insert it into the dashboard.\n\n The Heatmap item uses color variation to show the relationship between two dimensions."),
-    CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.HeatmapCustomItem.svg")
+    CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.HeatmapCustomItem.svg")
     ]
     public class HeatmapItemMetadata : CustomItemMetadata {
         readonly DimensionCollection rows = new DimensionCollection();

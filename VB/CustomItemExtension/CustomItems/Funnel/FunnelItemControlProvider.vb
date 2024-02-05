@@ -7,7 +7,7 @@ Imports DevExpress.DashboardWin
 Imports DevExpress.XtraCharts
 Imports DevExpress.XtraReports.UI
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class FunnelItemControlProvider
 		Inherits CustomControlProviderBase
 

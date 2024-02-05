@@ -216,7 +216,7 @@ For example, call the following code to register the `SankeyItemMetadata` type i
 
 **C# code**:
 ```csharp
-using DevExpresss.DashboardWin.CustomItemExtension;
+using DevExpress.DashboardWin.CustomItemExtension;
 using DevExpress.DashboardCommon;
 
 namespace CustomItemsSample {
@@ -236,7 +236,7 @@ namespace CustomItemsSample {
 
 **VB code**: 
 ```vb
-Imports DevExpresss.DashboardWin.CustomItemExtension
+Imports DevExpress.DashboardWin.CustomItemExtension
 Imports DevExpress.DashboardCommon
 
 Namespace CustomItemsSample
@@ -260,7 +260,7 @@ End Namespace
 **C# code**:
 ```csharp
 using DevExpress.XtraBars.Ribbon;
-using DevExpresss.DashboardWin.CustomItemExtension; 
+using DevExpress.DashboardWin.CustomItemExtension; 
 
 public Form1() {
         InitializeComponent();
@@ -273,7 +273,7 @@ public Form1() {
 **VB code**: 
 ```vb
 Imports DevExpress.XtraBars.Ribbon
-Imports DevExpresss.DashboardWin.CustomItemExtension
+Imports DevExpress.DashboardWin.CustomItemExtension
 
 Public Sub New()
 	InitializeComponent()

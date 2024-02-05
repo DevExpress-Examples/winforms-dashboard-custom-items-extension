@@ -163,7 +163,7 @@
     <value>valueMapControl</value>
   </data>
   <data name="&gt;&gt;valueMapControl.Type" xml:space="preserve">
-    <value>DevExpresss.DashboardWin.CustomItemExtension.Heatmap.HeatmapOptionsControl, DevExpresss.DashboardWin.CustomItemExtension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DevExpress.DashboardWin.CustomItemExtension.Heatmap.HeatmapOptionsControl, DevExpress.DashboardWin.CustomItemExtension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;valueMapControl.Parent" xml:space="preserve">
     <value>layoutControl1</value>

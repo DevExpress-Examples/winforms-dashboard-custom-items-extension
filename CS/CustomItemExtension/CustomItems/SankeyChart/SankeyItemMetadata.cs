@@ -1,11 +1,11 @@
 using System.ComponentModel;
 using DevExpress.DashboardCommon;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     [
     DisplayName("Sankey"),
     CustomItemDescription("Create a Sankey diagram dashboard item and insert it into the dashboard.\n\nThe Sankey diagram visualizes data as weighted flows or relationships between nodes."),
-    CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.SankeyCustomItem.svg")
+    CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.SankeyCustomItem.svg")
     ]
     public class SankeyItemMetadata : CustomItemMetadata {
         [

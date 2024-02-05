@@ -9,7 +9,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class GanttItemControlProvider : CustomControlProviderBase {
         DateTimeGroupInterval[] supportedDateGroupIntervals = new DateTimeGroupInterval[] {
             DateTimeGroupInterval.DayMonthYear,

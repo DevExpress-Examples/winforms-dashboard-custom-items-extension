@@ -1,7 +1,7 @@
 Imports System.ComponentModel
 Imports DevExpress.DashboardCommon
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	<DisplayName("Sankey"), CustomItemDescription("Create a Sankey diagram dashboard item and insert it into the dashboard." & vbLf & vbLf & "The Sankey diagram visualizes data as weighted flows or relationships between nodes."), CustomItemImage("SankeyCustomItem.svg")>
 	Public Class SankeyItemMetadata
 		Inherits CustomItemMetadata

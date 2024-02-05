@@ -6,9 +6,9 @@ using DevExpress.DashboardCommon;
 using DevExpress.DashboardWin.Native;
 using DevExpress.XtraLayout;
 using DevExpress.XtraLayout.Utils;
-using DevExpresss.DashboardWin.CustomItemExtension;
+using DevExpress.DashboardWin.CustomItemExtension;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap {
+namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap {
 	public partial class HeatmapOptionsForm : DashboardForm {
 		public HeatmapOptionsForm() {
 			InitializeComponent();

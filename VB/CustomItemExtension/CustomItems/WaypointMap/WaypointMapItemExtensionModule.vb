@@ -3,7 +3,7 @@ Imports DevExpress.DashboardWin
 Imports DevExpress.XtraBars
 Imports DevExpress.XtraBars.Ribbon
 
-Namespace DevExpresss.DashboardWin.CustomItemExtension
+Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class WaypointMapItemExtensionModule
 		Implements IExtensionModule
 

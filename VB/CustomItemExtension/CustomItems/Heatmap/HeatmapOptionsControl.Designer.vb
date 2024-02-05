@@ -1,4 +1,4 @@
-﻿Namespace DevExpresss.DashboardWin.CustomItemExtension.Heatmap
+﻿Namespace DevExpress.DashboardWin.CustomItemExtension.Heatmap
 	Partial Public Class HeatmapOptionsControl
 		Private components As System.ComponentModel.IContainer = Nothing
 		Protected Overrides Sub Dispose(ByVal disposing As Boolean)

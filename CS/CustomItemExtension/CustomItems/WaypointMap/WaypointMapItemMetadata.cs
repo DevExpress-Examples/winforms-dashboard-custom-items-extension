@@ -1,11 +1,11 @@
 using System.ComponentModel;
 using DevExpress.DashboardCommon;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     [
     DisplayName("Waypoint Map"),
     CustomItemDescription("Create a Waypoint map dashboard item and insert it into the dashboard.\n\nThe Waypoint map visualizes data as linked points."),
-    CustomItemImage("DevExpresss.DashboardWin.CustomItemExtension.Images.WaypointCustomItem.svg")
+    CustomItemImage("DevExpress.DashboardWin.CustomItemExtension.Images.WaypointCustomItem.svg")
     ]
     public class WaypointMapItemMetadata : CustomItemMetadata {
         [

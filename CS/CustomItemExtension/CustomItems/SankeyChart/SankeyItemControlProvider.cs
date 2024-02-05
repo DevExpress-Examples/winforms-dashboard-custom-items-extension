@@ -11,7 +11,7 @@ using DevExpress.Utils.Extensions;
 using DevExpress.XtraCharts.Sankey;
 using DevExpress.XtraReports.UI;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension {
+namespace DevExpress.DashboardWin.CustomItemExtension {
     public class SankeyItemControlProvider : CustomControlProviderBase {
         DashboardFlatDataSource flatData;
         MultiDimensionalData multiDimensionalData;

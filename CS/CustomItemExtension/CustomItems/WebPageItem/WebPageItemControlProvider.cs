@@ -9,7 +9,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension
+namespace DevExpress.DashboardWin.CustomItemExtension
 {
     public class WebPageItemControlProvider : CustomControlProviderBase {
         MemoryStream imageStream = new MemoryStream();

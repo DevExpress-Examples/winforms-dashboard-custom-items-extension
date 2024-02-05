@@ -1,6 +1,6 @@
 Imports DevExpress.DashboardCommon
 Imports DevExpress.XtraBars.Navigation
-Imports DevExpresss.DashboardWin.CustomItemExtension
+Imports DevExpress.DashboardWin.CustomItemExtension
 Imports System.IO
 Imports System.Linq
 

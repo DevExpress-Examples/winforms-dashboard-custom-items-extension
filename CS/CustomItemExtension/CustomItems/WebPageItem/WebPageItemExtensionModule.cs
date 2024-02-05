@@ -3,9 +3,9 @@ using DevExpress.DashboardWin;
 using DevExpress.XtraBars;
 using DevExpress.XtraBars.Ribbon;
 using DevExpress.XtraEditors.Repository;
-using DevExpresss.DashboardWin.CustomItemExtension.CustomItems.WebPageItem;
+using DevExpress.DashboardWin.CustomItemExtension.CustomItems.WebPageItem;
 
-namespace DevExpresss.DashboardWin.CustomItemExtension
+namespace DevExpress.DashboardWin.CustomItemExtension
 {
     public class WebPageItemExtensionModule : IExtensionModule {
 
