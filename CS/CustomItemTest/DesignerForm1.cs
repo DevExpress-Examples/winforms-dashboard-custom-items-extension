@@ -10,7 +10,7 @@ namespace CustomItemTest {
         SunburstItemExtensionModule sunburstItemModule = new SunburstItemExtensionModule();
         FunnelItemExtensionModule funnelItemModule = new FunnelItemExtensionModule();
         SankeyItemExtensionModule sankeyItemModule = new SankeyItemExtensionModule();
-        WaypointMapItemExtensionModule waypointMapItemModule = new WaypointMapItemExtensionModule("YOUR BING KEY");
+        WaypointMapItemExtensionModule waypointMapItemModule = new WaypointMapItemExtensionModule("Your Azure Key");
         TreeListItemExtensionModule hierarchyTreeItemModule = new TreeListItemExtensionModule();
         GanttItemExtensionModule ganttItemExtensionModule = new GanttItemExtensionModule();
         WebPageItemExtensionModule webPageItemExtensionModule = new WebPageItemExtensionModule();

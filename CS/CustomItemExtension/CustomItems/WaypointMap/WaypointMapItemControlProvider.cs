@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace DevExpress.DashboardWin.CustomItemExtension {
     public class WaypointMapItemControlProvider : CustomControlProviderBase {
-        public static string BingCopyright { get { return "Copyright © " + DateTime.Now.Year + " Microsoft and its suppliers. All rights reserved."; } }
+        public static string AzureCopyright { get { return "Copyright © " + DateTime.Now.Year + " Microsoft and its suppliers. All rights reserved."; } }
 
         readonly Color defaultLineColor = Color.FromArgb(125, 255, 212, 106);
         readonly Color highlightLineColor = Color.FromArgb(200, 255, 212, 106);
@@ -27,7 +27,7 @@ namespace DevExpress.DashboardWin.CustomItemExtension {
         bool skipSelectionEvent = false;
 
         protected override Control Control { get { return map; } }
-        public WaypointMapItemControlProvider(CustomDashboardItem<WaypointMapItemMetadata> dashboardItem, string bingKey) {
+        public WaypointMapItemControlProvider(CustomDashboardItem<WaypointMapItemMetadata> dashboardItem, string azureKey) {
             this.dashboardItem = dashboardItem;
             map = new MapControl();
             map.MapItemClick += MapItemClickHandler;
@@ -36,12 +36,14 @@ namespace DevExpress.DashboardWin.CustomItemExtension {
             map.EnableRotation = false;
             map.NavigationPanelOptions.Visible = false;
             ImageLayer imageLayer = new ImageLayer() { Transparency = 1 };
+            ImageLayer labels = new ImageLayer();
             mapItemStorage = new MapItemStorage();
             vectorLayer = new VectorItemsLayer();
             vectorLayer.Data = mapItemStorage;
-            map.Layers.Add(imageLayer);
+            map.Layers.AddRange( new LayerBase[] { imageLayer, labels });
             map.Layers.Add(vectorLayer);
-            imageLayer.DataProvider = new BingMapDataProvider() { BingKey = bingKey };
+            imageLayer.DataProvider = new AzureMapDataProvider() { AzureKey = azureKey };
+            labels.DataProvider = new AzureMapDataProvider() { AzureKey = azureKey, Tileset = AzureTileset.BaseLabelsRoad};
             SetupMapOverlays();
         }
         protected override void UpdateControl(CustomItemData customItemData) {
@@ -138,7 +140,7 @@ namespace DevExpress.DashboardWin.CustomItemExtension {
             map.Overlays.Add(validationOverlay);
 
             MapOverlay copyrightOverlay = new MapOverlay() { Alignment = ContentAlignment.BottomRight };
-            using(Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpress.DashboardWin.CustomItemExtension.Images.BingLogo.png")) {
+            using(Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpress.DashboardWin.CustomItemExtension.Images.Azure.png")) {
                 if(stream != null) {
                     MapOverlayImageItem copyrightImageItem = new MapOverlayImageItem();
                     copyrightImageItem.Image = Image.FromStream(stream);
@@ -147,7 +149,7 @@ namespace DevExpress.DashboardWin.CustomItemExtension {
                 }
             }
             MapOverlayTextItem copyrightLabelItem = new MapOverlayTextItem();
-            copyrightLabelItem.Text = BingCopyright;
+            copyrightLabelItem.Text = AzureCopyright;
             copyrightLabelItem.Alignment = ContentAlignment.MiddleRight;
             copyrightOverlay.Items.Add(copyrightLabelItem);
             map.Overlays.Add(copyrightOverlay);

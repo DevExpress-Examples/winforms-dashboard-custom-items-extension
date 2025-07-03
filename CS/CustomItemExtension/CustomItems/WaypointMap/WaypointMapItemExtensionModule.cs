@@ -6,10 +6,10 @@ using DevExpress.XtraBars.Ribbon;
 namespace DevExpress.DashboardWin.CustomItemExtension {
     public class WaypointMapItemExtensionModule:IExtensionModule  {
         IDashboardControl dashboardControl;
-        string bingKey;
+        string azureKey;
 
-        public WaypointMapItemExtensionModule(string bingKey) {
-            this.bingKey = bingKey;
+        public WaypointMapItemExtensionModule(string azureKey) {
+            this.azureKey = azureKey;
         }
         public void AttachViewer(DashboardViewer viewer) {
             AttachDashboardControl(viewer);
@@ -38,7 +38,7 @@ namespace DevExpress.DashboardWin.CustomItemExtension {
         void OnCustomDashboardItemControlCreating(object sender, CustomDashboardItemControlCreatingEventArgs e) {
             IDashboardControl dashboardControl = (IDashboardControl)sender;
             if(e.MetadataType == typeof(WaypointMapItemMetadata))
-                e.CustomControlProvider = new WaypointMapItemControlProvider(dashboardControl.Dashboard.Items[e.DashboardItemName] as CustomDashboardItem<WaypointMapItemMetadata>, bingKey);
+                e.CustomControlProvider = new WaypointMapItemControlProvider(dashboardControl.Dashboard.Items[e.DashboardItemName] as CustomDashboardItem<WaypointMapItemMetadata>, azureKey);
         }
         void RemoveDrillDownBarItem(DashboardDesigner designer) {
             RibbonPage page = designer.Ribbon.GetDashboardRibbonPage(typeof(WaypointMapItemMetadata), DashboardRibbonPage.Data);

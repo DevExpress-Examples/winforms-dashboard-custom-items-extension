@@ -11,7 +11,7 @@ Namespace CustomItemTest
 		Private sunburstItemModule As New SunburstItemExtensionModule()
 		Private funnelItemModule As New FunnelItemExtensionModule()
 		Private sankeyItemModule As New SankeyItemExtensionModule()
-		Private waypointMapItemModule As New WaypointMapItemExtensionModule("YOUR BING KEY")
+		Private waypointMapItemModule As New WaypointMapItemExtensionModule("YOUR AZURE KEY")
 		Private hierarchyTreeItemModule As New TreeListItemExtensionModule()
 		Private ganttItemExtensionModule As New GanttItemExtensionModule()
 		Private webPageItemExtensionModule As New WebPageItemExtensionModule()

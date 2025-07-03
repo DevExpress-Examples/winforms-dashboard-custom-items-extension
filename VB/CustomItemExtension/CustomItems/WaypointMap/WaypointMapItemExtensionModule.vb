@@ -8,10 +8,10 @@ Namespace DevExpress.DashboardWin.CustomItemExtension
 		Implements IExtensionModule
 
 		Private dashboardControl As IDashboardControl
-		Private bingKey As String
+		Private azureKey As String
 
-		Public Sub New(ByVal bingKey As String)
-			Me.bingKey = bingKey
+		Public Sub New(ByVal azureKey As String)
+			Me.azureKey = azureKey
 		End Sub
 		Public Sub AttachViewer(ByVal viewer As DashboardViewer) Implements IExtensionModule.AttachViewer
 			AttachDashboardControl(viewer)
@@ -41,7 +41,7 @@ Namespace DevExpress.DashboardWin.CustomItemExtension
 		Private Sub OnCustomDashboardItemControlCreating(ByVal sender As Object, ByVal e As CustomDashboardItemControlCreatingEventArgs)
 			Dim dashboardControl As IDashboardControl = DirectCast(sender, IDashboardControl)
 			If e.MetadataType Is GetType(WaypointMapItemMetadata) Then
-				e.CustomControlProvider = New WaypointMapItemControlProvider(TryCast(dashboardControl.Dashboard.Items(e.DashboardItemName), CustomDashboardItem(Of WaypointMapItemMetadata)), bingKey)
+				e.CustomControlProvider = New WaypointMapItemControlProvider(TryCast(dashboardControl.Dashboard.Items(e.DashboardItemName), CustomDashboardItem(Of WaypointMapItemMetadata)), azureKey)
 			End If
 		End Sub
 		Private Sub RemoveDrillDownBarItem(ByVal designer As DashboardDesigner)

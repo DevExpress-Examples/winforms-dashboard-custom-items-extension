@@ -14,7 +14,7 @@ Namespace DevExpress.DashboardWin.CustomItemExtension
 	Public Class WaypointMapItemControlProvider
 		Inherits CustomControlProviderBase
 
-		Public Shared ReadOnly Property BingCopyright() As String
+		Public Shared ReadOnly Property AzureCopyright() As String
 			Get
 				Return "Copyright © " & Date.Now.Year & " Microsoft and its suppliers. All rights reserved."
 			End Get
@@ -37,7 +37,7 @@ Namespace DevExpress.DashboardWin.CustomItemExtension
 				Return map
 			End Get
 		End Property
-		Public Sub New(ByVal dashboardItem As CustomDashboardItem(Of WaypointMapItemMetadata), ByVal bingKey As String)
+		Public Sub New(ByVal dashboardItem As CustomDashboardItem(Of WaypointMapItemMetadata), ByVal azureKey As String)
 			Me.dashboardItem = dashboardItem
 			map = New MapControl()
 			AddHandler map.MapItemClick, AddressOf MapItemClickHandler
@@ -46,12 +46,17 @@ Namespace DevExpress.DashboardWin.CustomItemExtension
 			map.EnableRotation = False
 			map.NavigationPanelOptions.Visible = False
 			Dim imageLayer As New ImageLayer() With {.Transparency = 1}
+			Dim labels As New ImageLayer()
 			mapItemStorage = New MapItemStorage()
 			vectorLayer = New VectorItemsLayer()
 			vectorLayer.Data = mapItemStorage
-			map.Layers.Add(imageLayer)
+			map.Layers.AddRange(New LayerBase() {imageLayer, labels})
 			map.Layers.Add(vectorLayer)
-			imageLayer.DataProvider = New BingMapDataProvider() With {.BingKey = bingKey}
+			imageLayer.DataProvider = New AzureMapDataProvider() With {.AzureKey = azureKey}
+			labels.DataProvider = New AzureMapDataProvider() With {
+			.AzureKey = azureKey,
+			.Tileset = AzureTileset.BaseLabelsRoad
+			}
 			SetupMapOverlays()
 		End Sub
 		Protected Overrides Sub UpdateControl(ByVal customItemData As CustomItemData)
@@ -143,7 +148,7 @@ Namespace DevExpress.DashboardWin.CustomItemExtension
 			map.Overlays.Add(validationOverlay)
 
 			Dim copyrightOverlay As New MapOverlay() With {.Alignment = ContentAlignment.BottomRight}
-			Using stream As Stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpress.DashboardWin.CustomItemExtension.Images.BingLogo.png")
+			Using stream As Stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("DevExpress.DashboardWin.CustomItemExtension.Images.Azure.png")
 				If stream IsNot Nothing Then
 					Dim copyrightImageItem As New MapOverlayImageItem()
 					copyrightImageItem.Image = Image.FromStream(stream)
@@ -152,7 +157,7 @@ Namespace DevExpress.DashboardWin.CustomItemExtension
 				End If
 			End Using
 			Dim copyrightLabelItem As New MapOverlayTextItem()
-			copyrightLabelItem.Text = BingCopyright
+			copyrightLabelItem.Text = AzureCopyright
 			copyrightLabelItem.Alignment = ContentAlignment.MiddleRight
 			copyrightOverlay.Items.Add(copyrightLabelItem)
 			map.Overlays.Add(copyrightOverlay)
