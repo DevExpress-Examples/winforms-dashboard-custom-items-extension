@@ -93,6 +93,7 @@ This custom item implements the following [functionality](https://docs.devexpres
 * Master-Filter
 * Export
 
+A key is required to access data from Azure Maps. See the following topic for information: [Create an Azure Maps Account](https://learn.microsoft.com/en-us/azure/azure-maps/quick-demo-map-app#create-an-azure-maps-account).
 
 ### Custom Funnel Item
 
