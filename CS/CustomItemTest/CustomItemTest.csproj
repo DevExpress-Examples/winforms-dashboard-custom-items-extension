@@ -36,122 +36,122 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.BonusSkins.v25.1">
+    <Reference Include="DevExpress.BonusSkins.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Charts.v25.1.Core">
+    <Reference Include="DevExpress.Charts.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Dashboard.v25.1.Core">
+    <Reference Include="DevExpress.Dashboard.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Dashboard.v25.1.Win">
+    <Reference Include="DevExpress.Dashboard.v25.2.Win">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v25.1">
+    <Reference Include="DevExpress.Data.Desktop.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.v25.1">
+    <Reference Include="DevExpress.Data.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v25.1">
+    <Reference Include="DevExpress.DataAccess.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v25.1.UI">
+    <Reference Include="DevExpress.DataAccess.v25.2.UI">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataVisualization.v25.1.Core" />
-    <Reference Include="DevExpress.Map.v25.1.Core">
+    <Reference Include="DevExpress.DataVisualization.v25.2.Core" />
+    <Reference Include="DevExpress.Map.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v25.1.Core">
+    <Reference Include="DevExpress.Office.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v25.1.Core">
+    <Reference Include="DevExpress.Pdf.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v25.1.Drawing">
+    <Reference Include="DevExpress.Pdf.v25.2.Drawing">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v25.1.Core">
+    <Reference Include="DevExpress.PivotGrid.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v25.1.Core">
+    <Reference Include="DevExpress.Printing.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v25.1.Core">
+    <Reference Include="DevExpress.RichEdit.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v25.1.Core">
+    <Reference Include="DevExpress.Sparkline.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.TreeMap.v25.1.Core">
+    <Reference Include="DevExpress.TreeMap.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Utils.v25.1">
+    <Reference Include="DevExpress.Utils.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Utils.v25.1.UI">
+    <Reference Include="DevExpress.Utils.v25.2.UI">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v25.1">
+    <Reference Include="DevExpress.Xpo.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraBars.v25.1">
+    <Reference Include="DevExpress.XtraBars.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v25.1">
+    <Reference Include="DevExpress.XtraCharts.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v25.1.UI">
+    <Reference Include="DevExpress.XtraCharts.v25.2.UI">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v25.1.Wizard">
+    <Reference Include="DevExpress.XtraCharts.v25.2.Wizard">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v25.1">
+    <Reference Include="DevExpress.XtraEditors.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v25.1.Core">
+    <Reference Include="DevExpress.XtraGauges.v25.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v25.1.Presets">
+    <Reference Include="DevExpress.XtraGauges.v25.2.Presets">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v25.1.Win">
+    <Reference Include="DevExpress.XtraGauges.v25.2.Win">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v25.1">
+    <Reference Include="DevExpress.XtraGrid.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v25.1">
+    <Reference Include="DevExpress.XtraLayout.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraMap.v25.1">
+    <Reference Include="DevExpress.XtraMap.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraPivotGrid.v25.1">
+    <Reference Include="DevExpress.XtraPivotGrid.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v25.1">
+    <Reference Include="DevExpress.XtraPrinting.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v25.1">
+    <Reference Include="DevExpress.CodeParser.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v25.1.Extensions">
+    <Reference Include="DevExpress.XtraReports.v25.2.Extensions">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v25.1">
+    <Reference Include="DevExpress.XtraReports.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v25.1">
+    <Reference Include="DevExpress.XtraRichEdit.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v25.1">
+    <Reference Include="DevExpress.XtraTreeList.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraTreeMap.v25.1">
+    <Reference Include="DevExpress.XtraTreeMap.v25.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System" />
