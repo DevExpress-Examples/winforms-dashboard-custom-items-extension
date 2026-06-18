@@ -50,90 +50,90 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v25.2.Core" />
-    <Reference Include="DevExpress.CodeParser.v25.2" />
-    <Reference Include="DevExpress.Dashboard.v25.2.Core">
+    <Reference Include="DevExpress.Charts.v26.1.Core" />
+    <Reference Include="DevExpress.CodeParser.v26.1" />
+    <Reference Include="DevExpress.Dashboard.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.Dashboard.v25.2.Win">
+    <Reference Include="DevExpress.Dashboard.v26.1.Win">
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v25.2" />
-    <Reference Include="DevExpress.Data.v25.2" />
-    <Reference Include="DevExpress.DataAccess.v25.2" />
-    <Reference Include="DevExpress.DataAccess.v25.2.UI" />
-    <Reference Include="DevExpress.DataVisualization.v25.2.Core" />
-    <Reference Include="DevExpress.Diagram.v25.2.Core">
+    <Reference Include="DevExpress.Data.Desktop.v26.1" />
+    <Reference Include="DevExpress.Data.v26.1" />
+    <Reference Include="DevExpress.DataAccess.v26.1" />
+    <Reference Include="DevExpress.DataAccess.v26.1.UI" />
+    <Reference Include="DevExpress.DataVisualization.v26.1.Core" />
+    <Reference Include="DevExpress.Diagram.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.Drawing.v25.2" />
-    <Reference Include="DevExpress.Images.v25.2" />
-    <Reference Include="DevExpress.Map.v25.2.Core">
+    <Reference Include="DevExpress.Drawing.v26.1" />
+    <Reference Include="DevExpress.Images.v26.1" />
+    <Reference Include="DevExpress.Map.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.Office.v25.2.Core">
+    <Reference Include="DevExpress.Office.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.Pdf.v25.2.Core">
+    <Reference Include="DevExpress.Pdf.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.Pdf.v25.2.Drawing">
+    <Reference Include="DevExpress.Pdf.v26.1.Drawing">
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v25.2.Core">
+    <Reference Include="DevExpress.PivotGrid.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.Printing.v25.2.Core">
+    <Reference Include="DevExpress.Printing.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v25.2.Core">
+    <Reference Include="DevExpress.RichEdit.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v25.2.Export">
+    <Reference Include="DevExpress.RichEdit.v26.1.Export">
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v25.2.Core">
+    <Reference Include="DevExpress.Sparkline.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.TreeMap.v25.2.Core" />
-    <Reference Include="DevExpress.Utils.v25.2" />
-    <Reference Include="DevExpress.Utils.v25.2.UI" />
-    <Reference Include="DevExpress.Xpo.v25.2" />
-    <Reference Include="DevExpress.XtraBars.v25.2">
+    <Reference Include="DevExpress.TreeMap.v26.1.Core" />
+    <Reference Include="DevExpress.Utils.v26.1" />
+    <Reference Include="DevExpress.Utils.v26.1.UI" />
+    <Reference Include="DevExpress.Xpo.v26.1" />
+    <Reference Include="DevExpress.XtraBars.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v25.2">
+    <Reference Include="DevExpress.XtraCharts.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v25.2.Extensions">
+    <Reference Include="DevExpress.XtraCharts.v26.1.Extensions">
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v25.2.UI">
+    <Reference Include="DevExpress.XtraCharts.v26.1.UI">
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v25.2.Wizard">
+    <Reference Include="DevExpress.XtraCharts.v26.1.Wizard">
     </Reference>
-    <Reference Include="DevExpress.XtraDiagram.v25.2">
+    <Reference Include="DevExpress.XtraDiagram.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v25.2">
+    <Reference Include="DevExpress.XtraEditors.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraGantt.v25.2">
+    <Reference Include="DevExpress.XtraGantt.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v25.2.Core">
+    <Reference Include="DevExpress.XtraGauges.v26.1.Core">
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v25.2.Presets">
+    <Reference Include="DevExpress.XtraGauges.v26.1.Presets">
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v25.2.Win">
+    <Reference Include="DevExpress.XtraGauges.v26.1.Win">
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v25.2">
+    <Reference Include="DevExpress.XtraGrid.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v25.2">
+    <Reference Include="DevExpress.XtraLayout.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraMap.v25.2">
+    <Reference Include="DevExpress.XtraMap.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraNavBar.v25.2">
+    <Reference Include="DevExpress.XtraNavBar.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraPivotGrid.v25.2">
+    <Reference Include="DevExpress.XtraPivotGrid.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v25.2">
+    <Reference Include="DevExpress.XtraPrinting.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v25.2">
+    <Reference Include="DevExpress.XtraReports.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v25.2">
+    <Reference Include="DevExpress.XtraRichEdit.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v25.2">
+    <Reference Include="DevExpress.XtraTreeList.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraTreeMap.v25.2">
+    <Reference Include="DevExpress.XtraTreeMap.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraTreeMap.v25.2.UI">
+    <Reference Include="DevExpress.XtraTreeMap.v26.1.UI">
     </Reference>
-    <Reference Include="DevExpress.XtraVerticalGrid.v25.2">
+    <Reference Include="DevExpress.XtraVerticalGrid.v26.1">
     </Reference>
-    <Reference Include="DevExpress.XtraWizard.v25.2">
+    <Reference Include="DevExpress.XtraWizard.v26.1">
     </Reference>
     <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.1245.22, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.WebView2.1.0.1245.22\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
