@@ -1,6 +1,6 @@
 # DevExpress WinForms BI Dashboard - Custom Items
 
-This package implements additional data presentation/analysis items for the [DevExpress WinForms Dashboard](https://docs.devexpress.com/Dashboard/402519/winforms-dashboard). Install the package and register required items as shown below. 
+This package provides additional data presentation and analysis items for the [DevExpress WinForms Dashboard](https://docs.devexpress.com/Dashboard/402519/winforms-dashboard). Install the package and register the required items as shown below.
 
 ## Included Items
 
@@ -15,9 +15,9 @@ This package implements additional data presentation/analysis items for the [Dev
 
 ## Evaluation Period, Pricing Options, and Licensing Terms
 
-Whether you own a license or want to start a 30-day evaluation period, register your DevExpress license key. To obtain your key, log in to the [DevExpress Download Manager](https://www.devexpress.com/ClientCenter/DownloadManager/). Use your existing DevExpress.com account or create a new account for free. For additional registration instructions, see [License Key for DevExpress Products]( https://www.devexpress.com/go/Licensing_Documentation.aspx).
+Whether you own a license or want to start a 30-day evaluation, register your DevExpress license key. To obtain your key, sign in to the [DevExpress Download Manager](https://www.devexpress.com/ClientCenter/DownloadManager/). Use your existing DevExpress.com with an existing DevExpress.com account or create a free account. For additional registration instructions, see [License Key for DevExpress Products]( https://www.devexpress.com/go/Licensing_Documentation.aspx).
 
-If you purchase a license after evaluating a product, re-register your updated DevExpress license key to remove evaluation version warnings/messages. 
+If you purchase a license after evaluating a product, re-register your updated DevExpress license key to remove evaluation warnings and messages.
 
 This package is included in the following commercial subscription: [DevExpress Universal Subscription](https://www.devexpress.com/subscriptions/universal.xml).
 
@@ -118,7 +118,7 @@ Code examples in this section register the Sankey Item.
 
 ## Software Bill of Materials (SBOM)
 
-To access SBOM files for DevExpress packages, please refer to the following article: [Software Bill of Materials (SBOM) for DevExpress .NET assemblies/NuGet packages, JavaScript, VCL and other redistributable artifacts](https://www.devexpress.com/go/DevExpress_Security_SBOM.aspx).
+For information about SBOM files for DevExpress packages, see [Software Bill of Materials (SBOM) for DevExpress .NET assemblies/NuGet packages, JavaScript, VCL and other redistributable artifacts](https://www.devexpress.com/go/DevExpress_Security_SBOM.aspx).
 
 **See Also**: [Information Security](https://www.devexpress.com/support/information-security.xml) | [Security - What You Need to Know](https://docs.devexpress.com/GeneralInformation/403365)
 
